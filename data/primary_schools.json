@@ -1,0 +1,1650 @@
+{
+ "source": "MOE General information of schools (data.gov.sg dataset d_688b934f82c1059ed0a6993d2a829089), geocoded via OneMap search",
+ "built": "2026-10-03",
+ "levels": [
+  "MIXED LEVEL (P1-S4)",
+  "PRIMARY"
+ ],
+ "count": 182,
+ "not_geocoded": [],
+ "schools": [
+  {
+   "name": "Admiralty Primary School",
+   "postal": "738907",
+   "address": "11 WOODLANDS CIRCLE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.442635,
+   "lng": 103.80004
+  },
+  {
+   "name": "Ahmad Ibrahim Primary School",
+   "postal": "768643",
+   "address": "10 YISHUN STREET 11",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.433153,
+   "lng": 103.832942
+  },
+  {
+   "name": "Ai Tong School",
+   "postal": "579646",
+   "address": "100 Bright Hill Drive",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.360583,
+   "lng": 103.83302
+  },
+  {
+   "name": "Alexandra Primary School",
+   "postal": "159016",
+   "address": "2A Prince Charles Crescent",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.291334,
+   "lng": 103.824425
+  },
+  {
+   "name": "Anchor Green Primary School",
+   "postal": "544969",
+   "address": "31 Anchorvale Drive",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.39037,
+   "lng": 103.887165
+  },
+  {
+   "name": "Anderson Primary School",
+   "postal": "569785",
+   "address": "19 ANG MO KIO AVE 9",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.384264,
+   "lng": 103.841392
+  },
+  {
+   "name": "Ang Mo Kio Primary School",
+   "postal": "569920",
+   "address": "20 ANG MO KIO AVENUE 3",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.369322,
+   "lng": 103.839631
+  },
+  {
+   "name": "Anglo-Chinese School (Junior)",
+   "postal": "227988",
+   "address": "16 WINSTEDT ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.30935,
+   "lng": 103.84095
+  },
+  {
+   "name": "Anglo-Chinese School (Primary)",
+   "postal": "309918",
+   "address": "50 BARKER ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.318371,
+   "lng": 103.83561
+  },
+  {
+   "name": "Angsana Primary School",
+   "postal": "528565",
+   "address": "51 Tampines Street 61",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.363606,
+   "lng": 103.938941
+  },
+  {
+   "name": "Beacon Primary School",
+   "postal": "679944",
+   "address": "36 Bukit Panjang Ring Road",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.383949,
+   "lng": 103.773632
+  },
+  {
+   "name": "Bedok Green Primary School",
+   "postal": "469317",
+   "address": "1 BEDOK SOUTH AVE 2",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.323446,
+   "lng": 103.937879
+  },
+  {
+   "name": "Bendemeer Primary School",
+   "postal": "339948",
+   "address": "91 BENDEMEER ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.321813,
+   "lng": 103.865404
+  },
+  {
+   "name": "Blangah Rise Primary School",
+   "postal": "109100",
+   "address": "91 TELOK BLANGAH HEIGHTS",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.27612,
+   "lng": 103.808629
+  },
+  {
+   "name": "Boon Lay Garden Primary School",
+   "postal": "649930",
+   "address": "20 BOON LAY DRIVE",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.343179,
+   "lng": 103.713281
+  },
+  {
+   "name": "Bukit Panjang Primary School",
+   "postal": "679676",
+   "address": "109 CASHEW ROAD",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.373622,
+   "lng": 103.769375
+  },
+  {
+   "name": "Bukit Timah Primary School",
+   "postal": "598112",
+   "address": "111 Lorong Kismis",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.3373,
+   "lng": 103.766829
+  },
+  {
+   "name": "Bukit View Primary School",
+   "postal": "659634",
+   "address": "18 BUKIT BATOK STREET 21",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.345861,
+   "lng": 103.753666
+  },
+  {
+   "name": "Canberra Primary School",
+   "postal": "757714",
+   "address": "21 ADMIRALTY DRIVE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.45125,
+   "lng": 103.815859
+  },
+  {
+   "name": "Canossa Catholic Primary School",
+   "postal": "387621",
+   "address": "1 Sallim Road",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.326644,
+   "lng": 103.882228
+  },
+  {
+   "name": "Cantonment Primary School",
+   "postal": "088256",
+   "address": "1 CANTONMENT CLOSE",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.275473,
+   "lng": 103.839963
+  },
+  {
+   "name": "Casuarina Primary School",
+   "postal": "518935",
+   "address": "30 PASIR RIS ST 41",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.372461,
+   "lng": 103.95702
+  },
+  {
+   "name": "Catholic High School",
+   "postal": "579767",
+   "address": "9 BISHAN STREET 22",
+   "level": "MIXED LEVEL (P1-S4)",
+   "zone": "NORTH",
+   "lat": 1.354525,
+   "lng": 103.844901
+  },
+  {
+   "name": "Cedar Primary School",
+   "postal": "349700",
+   "address": "15 CEDAR AVENUE",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.335589,
+   "lng": 103.875621
+  },
+  {
+   "name": "Changkat Primary School",
+   "postal": "529896",
+   "address": "11 SIMEI ST 3",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.340232,
+   "lng": 103.95208
+  },
+  {
+   "name": "Chij (Katong) Primary",
+   "postal": "424821",
+   "address": "17 MARTIA ROAD",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.306485,
+   "lng": 103.911106
+  },
+  {
+   "name": "Chij (Kellock)",
+   "postal": "099757",
+   "address": "1 Bukit Teresa Road",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.275023,
+   "lng": 103.828158
+  },
+  {
+   "name": "Chij Our Lady Of Good Counsel",
+   "postal": "558979",
+   "address": "2C Burghley Drive",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.35743,
+   "lng": 103.864009
+  },
+  {
+   "name": "Chij Our Lady Of The Nativity",
+   "postal": "534793",
+   "address": "1257 UPPER SERANGOON ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.373303,
+   "lng": 103.897576
+  },
+  {
+   "name": "Chij Our Lady Queen Of Peace",
+   "postal": "679287",
+   "address": "4 Chestnut Drive",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.366604,
+   "lng": 103.767412
+  },
+  {
+   "name": "Chij Primary (Toa Payoh)",
+   "postal": "319765",
+   "address": "628 Lorong 1 Toa Payoh",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.332753,
+   "lng": 103.841847
+  },
+  {
+   "name": "Chij St. Nicholas Girls' School",
+   "postal": "569405",
+   "address": "501 ANG MO KIO STREET 13",
+   "level": "MIXED LEVEL (P1-S4)",
+   "zone": "NORTH",
+   "lat": 1.373477,
+   "lng": 103.834253
+  },
+  {
+   "name": "Chongfu School",
+   "postal": "768959",
+   "address": "170 YISHUN AVENUE 6",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.438396,
+   "lng": 103.839309
+  },
+  {
+   "name": "Chongzheng Primary School",
+   "postal": "529392",
+   "address": "1 TAMPINES STREET 21",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.350707,
+   "lng": 103.9514
+  },
+  {
+   "name": "Chua Chu Kang Primary School",
+   "postal": "689905",
+   "address": "20 CHOA CHU KANG AVENUE 2",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.377759,
+   "lng": 103.741833
+  },
+  {
+   "name": "Clementi Primary School",
+   "postal": "129903",
+   "address": "8 CLEMENTI AVE 3",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.315063,
+   "lng": 103.763144
+  },
+  {
+   "name": "Compassvale Primary School",
+   "postal": "545091",
+   "address": "21 COMPASSVALE ST",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.394445,
+   "lng": 103.897812
+  },
+  {
+   "name": "Concord Primary School",
+   "postal": "689814",
+   "address": "3 CHOA CHU KANG AVE 4",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.380008,
+   "lng": 103.736225
+  },
+  {
+   "name": "Corporation Primary School",
+   "postal": "648347",
+   "address": "31 JURONG WEST STREET 24",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.350998,
+   "lng": 103.707594
+  },
+  {
+   "name": "Damai Primary School",
+   "postal": "479226",
+   "address": "52 BEDOK RESERVOIR CRESCENT",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.335461,
+   "lng": 103.92127
+  },
+  {
+   "name": "Dazhong Primary School",
+   "postal": "659441",
+   "address": "35 BUKIT BATOK STREET 31",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.35918,
+   "lng": 103.748472
+  },
+  {
+   "name": "De La Salle School",
+   "postal": "689285",
+   "address": "11 Choa Chu Kang St 52",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.394708,
+   "lng": 103.743202
+  },
+  {
+   "name": "East Spring Primary School",
+   "postal": "529258",
+   "address": "31 TAMPINES ST 33",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.352684,
+   "lng": 103.961677
+  },
+  {
+   "name": "Edgefield Primary School",
+   "postal": "828869",
+   "address": "41 EDGEFIELD PLAINS",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.400091,
+   "lng": 103.907848
+  },
+  {
+   "name": "Elias Park Primary School",
+   "postal": "518866",
+   "address": "11 PASIR RIS STREET 52",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.374513,
+   "lng": 103.945128
+  },
+  {
+   "name": "Endeavour Primary School",
+   "postal": "757521",
+   "address": "10 Admiralty Link",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.454038,
+   "lng": 103.817436
+  },
+  {
+   "name": "Evergreen Primary School",
+   "postal": "738908",
+   "address": "31 WOODLANDS CIRCLE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.444153,
+   "lng": 103.794578
+  },
+  {
+   "name": "Fairfield Methodist School (Primary)",
+   "postal": "139648",
+   "address": "100 DOVER ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.300541,
+   "lng": 103.785438
+  },
+  {
+   "name": "Farrer Park Primary School",
+   "postal": "217567",
+   "address": "2 FARRER PARK ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.312369,
+   "lng": 103.850766
+  },
+  {
+   "name": "Fengshan Primary School",
+   "postal": "469680",
+   "address": "307 BEDOK NORTH ROAD",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.329806,
+   "lng": 103.93171
+  },
+  {
+   "name": "Fern Green Primary School",
+   "postal": "797538",
+   "address": "70 Fernvale Link   Fern Green Primary School",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.39727,
+   "lng": 103.88033
+  },
+  {
+   "name": "Fernvale Primary School",
+   "postal": "797701",
+   "address": "1 Fernvale Lane",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.390302,
+   "lng": 103.874445
+  },
+  {
+   "name": "First Toa Payoh Primary School",
+   "postal": "319252",
+   "address": "7 LORONG 8 TOA PAYOH",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.340323,
+   "lng": 103.85553
+  },
+  {
+   "name": "Frontier Primary School",
+   "postal": "648200",
+   "address": "20 Jurong West Street 61",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.336413,
+   "lng": 103.699702
+  },
+  {
+   "name": "Fuchun Primary School",
+   "postal": "739063",
+   "address": "23 WOODLANDS AVENUE 1",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.43048,
+   "lng": 103.778193
+  },
+  {
+   "name": "Fuhua Primary School",
+   "postal": "609647",
+   "address": "65 JURONG EAST STREET 13",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.336504,
+   "lng": 103.736104
+  },
+  {
+   "name": "Gan Eng Seng Primary School",
+   "postal": "158901",
+   "address": "100 REDHILL CLOSE",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.285595,
+   "lng": 103.815547
+  },
+  {
+   "name": "Geylang Methodist School (Primary)",
+   "postal": "389706",
+   "address": "4 Geylang East Central",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.317591,
+   "lng": 103.883846
+  },
+  {
+   "name": "Gongshang Primary School",
+   "postal": "529176",
+   "address": "1 TAMPINES STREET 42",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.357237,
+   "lng": 103.949115
+  },
+  {
+   "name": "Greendale Primary School",
+   "postal": "828848",
+   "address": "50 Edgedale Plains",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.396482,
+   "lng": 103.912335
+  },
+  {
+   "name": "Greenridge Primary School",
+   "postal": "677744",
+   "address": "11 JELAPANG ROAD",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.385889,
+   "lng": 103.767794
+  },
+  {
+   "name": "Greenwood Primary School",
+   "postal": "737942",
+   "address": "11 WOODLANDS  DR  62",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.4399,
+   "lng": 103.804726
+  },
+  {
+   "name": "Haig Girls' School",
+   "postal": "427072",
+   "address": "51 Koon Seng Road",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.311943,
+   "lng": 103.902903
+  },
+  {
+   "name": "Henry Park Primary School",
+   "postal": "278790",
+   "address": "1 HOLLAND GROVE ROAD",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.316676,
+   "lng": 103.784296
+  },
+  {
+   "name": "Holy Innocents' Primary School",
+   "postal": "536451",
+   "address": "5 Lorong Low Koon",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.366938,
+   "lng": 103.894115
+  },
+  {
+   "name": "Hong Wen School",
+   "postal": "327829",
+   "address": "30 TOWNER ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.32176,
+   "lng": 103.857628
+  },
+  {
+   "name": "Horizon Primary School",
+   "postal": "828819",
+   "address": "61 Edgedale Plains",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.39955,
+   "lng": 103.913405
+  },
+  {
+   "name": "Hougang Primary School",
+   "postal": "534238",
+   "address": "1 HOUGANG ST 93",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.377382,
+   "lng": 103.880805
+  },
+  {
+   "name": "Huamin Primary School",
+   "postal": "768857",
+   "address": "21 YISHUN AVENUE 11",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.426973,
+   "lng": 103.84424
+  },
+  {
+   "name": "Innova Primary School",
+   "postal": "737888",
+   "address": "80 Woodlands Drive 17",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.428967,
+   "lng": 103.790608
+  },
+  {
+   "name": "Jiemin Primary School",
+   "postal": "768515",
+   "address": "2 YISHUN STREET 71",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.427688,
+   "lng": 103.830425
+  },
+  {
+   "name": "Jing Shan Primary School",
+   "postal": "569228",
+   "address": "5 ANG MO KIO ST 52",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.372233,
+   "lng": 103.852132
+  },
+  {
+   "name": "Junyuan Primary School",
+   "postal": "528906",
+   "address": "2 Tampines Street 91",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.347871,
+   "lng": 103.939222
+  },
+  {
+   "name": "Jurong Primary School",
+   "postal": "609476",
+   "address": "320 JURONG EAST Street 32",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.348439,
+   "lng": 103.733157
+  },
+  {
+   "name": "Jurong West Primary School",
+   "postal": "648368",
+   "address": "30 JURONG WEST ST 61",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.339175,
+   "lng": 103.698804
+  },
+  {
+   "name": "Keming Primary School",
+   "postal": "659762",
+   "address": "90 BUKIT BATOK EAST AVENUE 6",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.345528,
+   "lng": 103.756449
+  },
+  {
+   "name": "Kheng Cheng School",
+   "postal": "319580",
+   "address": "15 LORONG 3 TOA PAYOH",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.337338,
+   "lng": 103.847149
+  },
+  {
+   "name": "Kong Hwa School",
+   "postal": "399772",
+   "address": "350 GUILLEMARD ROAD",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.310997,
+   "lng": 103.888352
+  },
+  {
+   "name": "Kranji Primary School",
+   "postal": "689189",
+   "address": "11 CHOA CHU KANG STREET 54",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.393561,
+   "lng": 103.747363
+  },
+  {
+   "name": "Kuo Chuan Presbyterian Primary School",
+   "postal": "579793",
+   "address": "8 BISHAN STREET 13",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.349398,
+   "lng": 103.855018
+  },
+  {
+   "name": "Lakeside Primary School",
+   "postal": "618310",
+   "address": "161 Corporation Walk",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.338204,
+   "lng": 103.71809
+  },
+  {
+   "name": "Lianhua Primary School",
+   "postal": "659243",
+   "address": "2 BUKIT BATOK STREET 52",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.354242,
+   "lng": 103.754166
+  },
+  {
+   "name": "Maha Bodhi School",
+   "postal": "408931",
+   "address": "10 UBI AVENUE 1",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.328471,
+   "lng": 103.901299
+  },
+  {
+   "name": "Maris Stella High School",
+   "postal": "368051",
+   "address": "25 MOUNT VERNON ROAD",
+   "level": "MIXED LEVEL (P1-S4)",
+   "zone": "NORTH",
+   "lat": 1.341395,
+   "lng": 103.877852
+  },
+  {
+   "name": "Marsiling Primary School",
+   "postal": "738927",
+   "address": "31 WOODLANDS CENTRE ROAD",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.433839,
+   "lng": 103.773643
+  },
+  {
+   "name": "Marymount Convent School",
+   "postal": "297754",
+   "address": "20 Marymount Road",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.340367,
+   "lng": 103.840021
+  },
+  {
+   "name": "Mayflower Primary School",
+   "postal": "569878",
+   "address": "200 Ang Mo Kio Avenue 5",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.376377,
+   "lng": 103.843253
+  },
+  {
+   "name": "Mee Toh School",
+   "postal": "828867",
+   "address": "21 EDGEDALE PLAINS",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.394618,
+   "lng": 103.908589
+  },
+  {
+   "name": "Meridian Primary School",
+   "postal": "518798",
+   "address": "20 PASIR RIS ST 71",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.375528,
+   "lng": 103.934889
+  },
+  {
+   "name": "Methodist Girls' School (Primary)",
+   "postal": "599986",
+   "address": "11 Blackmore Drive",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.332948,
+   "lng": 103.783393
+  },
+  {
+   "name": "Montfort Junior School",
+   "postal": "538786",
+   "address": "52 HOUGANG AVENUE 8",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.373824,
+   "lng": 103.889308
+  },
+  {
+   "name": "Nan Chiau Primary School",
+   "postal": "545080",
+   "address": "50 ANCHORVALE LINK",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.392211,
+   "lng": 103.891181
+  },
+  {
+   "name": "Nan Hua Primary School",
+   "postal": "128806",
+   "address": "30 Jalan Lempeng",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.319202,
+   "lng": 103.761095
+  },
+  {
+   "name": "Nanyang Primary School",
+   "postal": "268097",
+   "address": "52 KING'S ROAD",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.320847,
+   "lng": 103.80775
+  },
+  {
+   "name": "Naval Base Primary School",
+   "postal": "769028",
+   "address": "7 YISHUN AVE 4",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.416307,
+   "lng": 103.838794
+  },
+  {
+   "name": "New Town Primary School",
+   "postal": "148812",
+   "address": "300 Tanglin Halt Road",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.299642,
+   "lng": 103.800102
+  },
+  {
+   "name": "Ngee Ann Primary School",
+   "postal": "449149",
+   "address": "344 MARINE TERRACE",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.305525,
+   "lng": 103.917463
+  },
+  {
+   "name": "North Spring Primary School",
+   "postal": "545088",
+   "address": "1 RIVERVALE STREET",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.387061,
+   "lng": 103.903203
+  },
+  {
+   "name": "North View Primary School",
+   "postal": "768960",
+   "address": "210 YISHUN AVENUE 6",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.427523,
+   "lng": 103.848191
+  },
+  {
+   "name": "North Vista Primary School",
+   "postal": "544974",
+   "address": "20 Compassvale Link",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.382822,
+   "lng": 103.895962
+  },
+  {
+   "name": "Northland Primary School",
+   "postal": "769026",
+   "address": "15 YISHUN AVENUE 4",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.42097,
+   "lng": 103.840928
+  },
+  {
+   "name": "Northoaks Primary School",
+   "postal": "757622",
+   "address": "61 Sembawang Drive",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.456608,
+   "lng": 103.814197
+  },
+  {
+   "name": "Northshore Primary School",
+   "postal": "828671",
+   "address": "30 Northshore Drive",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.418138,
+   "lng": 103.904417
+  },
+  {
+   "name": "Oasis Primary School",
+   "postal": "828716",
+   "address": "71 Edgefield Plains",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.404624,
+   "lng": 103.911121
+  },
+  {
+   "name": "Opera Estate Primary School",
+   "postal": "458436",
+   "address": "48 FIDELIO STREET",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.319319,
+   "lng": 103.923788
+  },
+  {
+   "name": "Palm View Primary School",
+   "postal": "544822",
+   "address": "150 Compassvale Bow",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.383769,
+   "lng": 103.891355
+  },
+  {
+   "name": "Park View Primary School",
+   "postal": "519524",
+   "address": "60 PASIR RIS DRIVE 1",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.377381,
+   "lng": 103.939542
+  },
+  {
+   "name": "Pasir Ris Primary School",
+   "postal": "518968",
+   "address": "5 PASIR RIS STREET 21",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.372419,
+   "lng": 103.962807
+  },
+  {
+   "name": "Paya Lebar Methodist Girls' School (Primary)",
+   "postal": "536741",
+   "address": "298 LORONG AH SOO",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.349473,
+   "lng": 103.884971
+  },
+  {
+   "name": "Pei Chun Public School",
+   "postal": "319320",
+   "address": "16 LORONG 7 TOA PAYOH",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.337374,
+   "lng": 103.855586
+  },
+  {
+   "name": "Pei Hwa Presbyterian Primary School",
+   "postal": "597610",
+   "address": "7 PEI WAH AVENUE",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.338056,
+   "lng": 103.776106
+  },
+  {
+   "name": "Pei Tong Primary School",
+   "postal": "129857",
+   "address": "15 CLEMENTI AVENUE 5",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.316198,
+   "lng": 103.7676
+  },
+  {
+   "name": "Peiying Primary School",
+   "postal": "768687",
+   "address": "651 YISHUN RING ROAD",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.417233,
+   "lng": 103.830417
+  },
+  {
+   "name": "Pioneer Primary School",
+   "postal": "699915",
+   "address": "80 TENGAH GARDEN AVENUE",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.354426,
+   "lng": 103.732791
+  },
+  {
+   "name": "Poi Ching School",
+   "postal": "529067",
+   "address": "21 TAMPINES STREET 71",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.357651,
+   "lng": 103.935246
+  },
+  {
+   "name": "Princess Elizabeth Primary School",
+   "postal": "659163",
+   "address": "30 BUKIT BATOK WEST AVENUE 3",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.349204,
+   "lng": 103.74102
+  },
+  {
+   "name": "Punggol Cove Primary School",
+   "postal": "828674",
+   "address": "52 Sumang Walk",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.411599,
+   "lng": 103.898804
+  },
+  {
+   "name": "Punggol Green Primary School",
+   "postal": "828772",
+   "address": "98 Punggol Walk",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.401872,
+   "lng": 103.898801
+  },
+  {
+   "name": "Punggol Primary School",
+   "postal": "538787",
+   "address": "61 HOUGANG AVENUE 8",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.377795,
+   "lng": 103.894507
+  },
+  {
+   "name": "Punggol View Primary School",
+   "postal": "828845",
+   "address": "9 Punggol Place",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.405146,
+   "lng": 103.905156
+  },
+  {
+   "name": "Qifa Primary School",
+   "postal": "128104",
+   "address": "50 WEST COAST AVENUE",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.313251,
+   "lng": 103.756743
+  },
+  {
+   "name": "Qihua Primary School",
+   "postal": "738525",
+   "address": "5 WOODLANDS STREET 81",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.442036,
+   "lng": 103.78834
+  },
+  {
+   "name": "Queenstown Primary School",
+   "postal": "149303",
+   "address": "310 MARGARET DR",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.295594,
+   "lng": 103.807549
+  },
+  {
+   "name": "Radin Mas Primary School",
+   "postal": "099840",
+   "address": "1 BUKIT PURMEI AVENUE",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.274958,
+   "lng": 103.824188
+  },
+  {
+   "name": "Raffles Girls' Primary School",
+   "postal": "289072",
+   "address": "21 Hillcrest Road",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.329404,
+   "lng": 103.806443
+  },
+  {
+   "name": "Red Swastika School",
+   "postal": "469719",
+   "address": "350 BEDOK NORTH AVENUE 3",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.333243,
+   "lng": 103.934332
+  },
+  {
+   "name": "River Valley Primary School",
+   "postal": "237993",
+   "address": "2 RIVER VALLEY GREEN",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.294223,
+   "lng": 103.835815
+  },
+  {
+   "name": "Riverside Primary School",
+   "postal": "737803",
+   "address": "110 Woodlands Crescent",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.447047,
+   "lng": 103.801832
+  },
+  {
+   "name": "Rivervale Primary School",
+   "postal": "545092",
+   "address": "80 RIVERVALE DRIVE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.39341,
+   "lng": 103.90456
+  },
+  {
+   "name": "Rosyth School",
+   "postal": "555855",
+   "address": "21 Serangoon North Avenue 4",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.372891,
+   "lng": 103.875002
+  },
+  {
+   "name": "Rulang Primary School",
+   "postal": "649295",
+   "address": "6 JURONG WEST STREET 52",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.346739,
+   "lng": 103.718458
+  },
+  {
+   "name": "Sembawang Primary School",
+   "postal": "757715",
+   "address": "10 SEMBAWANG DRIVE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.445047,
+   "lng": 103.821022
+  },
+  {
+   "name": "Seng Kang Primary School",
+   "postal": "545166",
+   "address": "21 COMPASSVALE WALK",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.389497,
+   "lng": 103.899767
+  },
+  {
+   "name": "Sengkang Green Primary School",
+   "postal": "797636",
+   "address": "15 Fernvale Road",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.392846,
+   "lng": 103.875218
+  },
+  {
+   "name": "Shuqun Primary School",
+   "postal": "649332",
+   "address": "8 JURONG WEST STREET 51",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.347653,
+   "lng": 103.721524
+  },
+  {
+   "name": "Si Ling Primary School",
+   "postal": "739067",
+   "address": "61 WOODLANDS AVENUE 1",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.432409,
+   "lng": 103.786035
+  },
+  {
+   "name": "Singapore Chinese Girls' Primary School",
+   "postal": "309437",
+   "address": "190 DUNEARN ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.320634,
+   "lng": 103.828165
+  },
+  {
+   "name": "South View Primary School",
+   "postal": "689762",
+   "address": "6 Choa Chu Kang Central",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.381667,
+   "lng": 103.746276
+  },
+  {
+   "name": "Springdale Primary School",
+   "postal": "544799",
+   "address": "71 Anchorvale Link",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.39467,
+   "lng": 103.889926
+  },
+  {
+   "name": "St Andrew'S School (Junior)",
+   "postal": "359337",
+   "address": "2 FRANCIS THOMAS DRIVE",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.331403,
+   "lng": 103.865117
+  },
+  {
+   "name": "St. Anthony'S Canossian Primary School",
+   "postal": "469701",
+   "address": "1602 BEDOK NORTH AVE 4",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.334725,
+   "lng": 103.941235
+  },
+  {
+   "name": "St. Anthony'S Primary School",
+   "postal": "659401",
+   "address": "30 Bukit Batok St 32",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.364119,
+   "lng": 103.749252
+  },
+  {
+   "name": "St. Gabriel'S Primary School",
+   "postal": "556742",
+   "address": "220 Lorong Chuan",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.349472,
+   "lng": 103.862561
+  },
+  {
+   "name": "St. Hilda'S Primary School",
+   "postal": "529706",
+   "address": "2 Tampines Ave 3",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.349386,
+   "lng": 103.937007
+  },
+  {
+   "name": "St. Joseph'S Institution Junior",
+   "postal": "309331",
+   "address": "3 ESSEX ROAD",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.317729,
+   "lng": 103.845612
+  },
+  {
+   "name": "St. Margaret'S School (Primary)",
+   "postal": "228197",
+   "address": "136 Sophia Road",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.303904,
+   "lng": 103.845955
+  },
+  {
+   "name": "St. Stephen'S School",
+   "postal": "455789",
+   "address": "20 SIGLAP VIEW",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.31879,
+   "lng": 103.917258
+  },
+  {
+   "name": "Tampines North Primary School",
+   "postal": "529565",
+   "address": "30 TAMPINES AVENUE 9",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.360476,
+   "lng": 103.948726
+  },
+  {
+   "name": "Tampines Primary School",
+   "postal": "529426",
+   "address": "250 TAMPINES STREET 12",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.349779,
+   "lng": 103.944005
+  },
+  {
+   "name": "Tanjong Katong Primary School",
+   "postal": "437259",
+   "address": "10 Seraya Road",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.305258,
+   "lng": 103.900163
+  },
+  {
+   "name": "Tao Nan School",
+   "postal": "449761",
+   "address": "49 MARINE CRESCENT",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.305285,
+   "lng": 103.911553
+  },
+  {
+   "name": "Teck Ghee Primary School",
+   "postal": "569299",
+   "address": "1 ANG MO KIO STREET 32",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.365588,
+   "lng": 103.850957
+  },
+  {
+   "name": "Teck Whye Primary School",
+   "postal": "688261",
+   "address": "11 TECK WHYE WALK",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.38365,
+   "lng": 103.753292
+  },
+  {
+   "name": "Telok Kurau Primary School",
+   "postal": "479239",
+   "address": "50 BEDOK RESERVOIR RD",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.331046,
+   "lng": 103.910934
+  },
+  {
+   "name": "Temasek Primary School",
+   "postal": "469300",
+   "address": "501 BEDOK SOUTH AVE 3",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.317707,
+   "lng": 103.945591
+  },
+  {
+   "name": "Townsville Primary School",
+   "postal": "569730",
+   "address": "3 ANG MO KIO AVE 10",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.360033,
+   "lng": 103.853826
+  },
+  {
+   "name": "Unity Primary School",
+   "postal": "688268",
+   "address": "21 CHOA CHU KANG CRESCENT",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.402855,
+   "lng": 103.746823
+  },
+  {
+   "name": "Valour Primary School",
+   "postal": "828728",
+   "address": "49 Punggol Central",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.406836,
+   "lng": 103.899078
+  },
+  {
+   "name": "Waterway Primary School",
+   "postal": "828802",
+   "address": "70 Punggol Drive",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.398828,
+   "lng": 103.918622
+  },
+  {
+   "name": "Wellington Primary School",
+   "postal": "757702",
+   "address": "10 WELLINGTON CIRCLE",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.45192,
+   "lng": 103.822304
+  },
+  {
+   "name": "West Grove Primary School",
+   "postal": "649223",
+   "address": "1 JURONG WEST ST 72",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.344879,
+   "lng": 103.699286
+  },
+  {
+   "name": "West Spring Primary School",
+   "postal": "679946",
+   "address": "60 Bukit Panjang Ring Road",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.389441,
+   "lng": 103.766196
+  },
+  {
+   "name": "West View Primary School",
+   "postal": "677742",
+   "address": "31 SENJA ROAD",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.383676,
+   "lng": 103.76024
+  },
+  {
+   "name": "Westwood Primary School",
+   "postal": "649188",
+   "address": "1 Jurong West Street 73",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.347185,
+   "lng": 103.700534
+  },
+  {
+   "name": "White Sands Primary School",
+   "postal": "519075",
+   "address": "2 PASIR RIS ST 11",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.365557,
+   "lng": 103.960919
+  },
+  {
+   "name": "Woodgrove Primary School",
+   "postal": "738079",
+   "address": "2 WOODLANDS DRIVE 14",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.433103,
+   "lng": 103.790604
+  },
+  {
+   "name": "Woodlands Primary School",
+   "postal": "738853",
+   "address": "10 WOODLANDS DRIVE 50",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.436551,
+   "lng": 103.791571
+  },
+  {
+   "name": "Woodlands Ring Primary School",
+   "postal": "738240",
+   "address": "11 WOODLANDS RING ROAD",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.434952,
+   "lng": 103.797436
+  },
+  {
+   "name": "Xinghua Primary School",
+   "postal": "538882",
+   "address": "45 HOUGANG AVENUE 1",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.357909,
+   "lng": 103.890473
+  },
+  {
+   "name": "Xingnan Primary School",
+   "postal": "649036",
+   "address": "5 JURONG WEST STREET 91",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.342547,
+   "lng": 103.68795
+  },
+  {
+   "name": "Xinmin Primary School",
+   "postal": "538784",
+   "address": "9 HOUGANG AVENUE 8",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.371395,
+   "lng": 103.883081
+  },
+  {
+   "name": "Xishan Primary School",
+   "postal": "768611",
+   "address": "8 YISHUN STREET 21",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.433472,
+   "lng": 103.837755
+  },
+  {
+   "name": "Yangzheng Primary School",
+   "postal": "556108",
+   "address": "15 SERANGOON AVENUE 3",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.348646,
+   "lng": 103.868596
+  },
+  {
+   "name": "Yew Tee Primary School",
+   "postal": "689100",
+   "address": "10 CHOA CHU KANG ST 64",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.396766,
+   "lng": 103.750986
+  },
+  {
+   "name": "Yio Chu Kang Primary School",
+   "postal": "538720",
+   "address": "1 HOUGANG STREET 51",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.377933,
+   "lng": 103.885644
+  },
+  {
+   "name": "Yishun Primary School",
+   "postal": "768679",
+   "address": "500 YISHUN RING ROAD",
+   "level": "PRIMARY",
+   "zone": "NORTH",
+   "lat": 1.433386,
+   "lng": 103.834087
+  },
+  {
+   "name": "Yu Neng Primary School",
+   "postal": "469623",
+   "address": "56 BEDOK NORTH ST 3",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.333889,
+   "lng": 103.932145
+  },
+  {
+   "name": "Yuhua Primary School",
+   "postal": "609558",
+   "address": "158 JURONG EAST STREET 24",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.342802,
+   "lng": 103.741106
+  },
+  {
+   "name": "Yumin Primary School",
+   "postal": "529393",
+   "address": "3 TAMPINES STREET 21",
+   "level": "PRIMARY",
+   "zone": "EAST",
+   "lat": 1.351292,
+   "lng": 103.950462
+  },
+  {
+   "name": "Zhangde Primary School",
+   "postal": "169485",
+   "address": "51 Jalan Membina",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.284212,
+   "lng": 103.825952
+  },
+  {
+   "name": "Zhenghua Primary School",
+   "postal": "679002",
+   "address": "9 Fajar Road",
+   "level": "PRIMARY",
+   "zone": "WEST",
+   "lat": 1.379549,
+   "lng": 103.769314
+  },
+  {
+   "name": "Zhonghua Primary School",
+   "postal": "556095",
+   "address": "12 SERANGOON AVENUE 4",
+   "level": "PRIMARY",
+   "zone": "SOUTH",
+   "lat": 1.360203,
+   "lng": 103.869762
+  }
+ ]
+}

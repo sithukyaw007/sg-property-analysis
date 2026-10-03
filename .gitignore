@@ -90,3 +90,5 @@ evaluations/*.lock
 profile.local.json
 # Personal derived data: commute times, personal-fit scores (machine-local)
 data/personal/
+# Personal shortlist outputs (my_shortlist.py)
+output/my_shortlist/
