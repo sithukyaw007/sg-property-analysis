@@ -64,7 +64,7 @@ fi
 
 echo "==> re-deriving EC data (URA API)"
 if "$PY" ura_api.py --check >/dev/null 2>&1; then
-  "$PY" ura_api.py --ec-only >/dev/null
+  "$PY" ura_api.py --ec-only >/dev/null 2>&1 || { echo "EC refresh failed — run: $PY ura_api.py --ec-only" >&2; exit 3; }
 else
   echo "   URA key unavailable — rebuilding caches from the EC CSVs already on disk"
   "$PY" -c "import glob, invest; invest.build_ura_cache_from_csv(sorted(glob.glob('data/ura_district_D[0-9][0-9]_EC.csv')))" >/dev/null 2>&1
