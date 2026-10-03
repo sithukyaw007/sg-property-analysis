@@ -15,6 +15,16 @@ hints at own-stay or is ambiguous, ask the user before rating
 0–100 livability score (`scoring/livability.py` — heuristic, never folded
 into MMR) alongside the rubric's own-stay lens.
 
+**Buyer profile (fork)**: run `python buyer_profile.py` first. When a profile is
+active it already answers the purpose check and the buyer type — don't ask
+again. Apply its mandate (budget, beds, districts, condo/EC), its `buyer_type`
+for ABSD (the ROI block already uses it), and its household citizenship for EC
+eligibility (`factual_data.ec_status.household_eligible` — a PR-only household
+cannot buy an EC still within its MOP). For own-stay also read
+`python -m scoring.personal_fit "<condo>" <district>` (commute + primary
+schools; never evidence of returns). EC rules: `docs/evaluation-rubric.md` →
+Executive Condominiums.
+
 ## Steps
 
 1. **Recall** — references, not truth:

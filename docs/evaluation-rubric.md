@@ -52,6 +52,58 @@ profile (`/research-development` → `profiles/<slug>.json`) and say so — do n
 read a neutral livability score as "facing is fine". `floor_level` is available
 but only on enriched listings, and caps around 35–40% coverage.
 
+**Personal anchors (buyer profile).** When `profile.local.json` sets anchors,
+`scoring/personal_fit.py` adds a second own-stay axis (0–100, 50 = neutral):
+public-transport commute to the workplace (OneMap, weekday rush hour; a
+straight-line fallback is labelled as such) and primary schools within the
+profile's radii (default 1 km / 2 km, straight-line from the development
+centroid). Like livability it filters survivors and is never evidence of
+returns. School counts are a screening proxy — P1 priority uses MOE's
+home-school distance for the specific block, so confirm on OneMap SchoolQuery
+before telling the household a school is "within 1 km".
+
+## Executive Condominiums (EC)
+
+An EC is a separate URA product — subsidised public housing that becomes a
+private condo on a fixed timetable — and must be judged as one. Facts
+(MND, 8 May 2026; dated in `data/ec_rules.json`, re-verify before relying):
+
+| Land tender closed | MOP | Fully privatised | Notes |
+|---|---|---|---|
+| before 8 May 2026 (every EC on the resale market today) | 5 yrs | after 10 yrs | — |
+| on/after 8 May 2026 (launches ~2027+) | 10 yrs | after 15 yrs | no Deferred Payment Scheme; 90% first-timer quota for 2 yrs |
+
+Who may buy: **new or within MOP** — households with at least one Singapore
+Citizen, within the income ceiling (≤ $16k; $18k for sites tendered from 24 Aug
+2026), MSR 30% on developer sales. **After MOP, before privatisation** — SC and
+PR households, no income ceiling. **Privatised** — anyone. A PR-only household
+can only buy post-MOP resale ECs. `factual_data.ec_status` gives the stage,
+`mop_ends_year`, `privatised_year`, `years_to_privatisation`, a `boundary_year`
+flag (TOP is a proxy for key collection — verify the exact date) and
+`household_eligible` for the active profile.
+
+How to evaluate one:
+- **Comps are EC prints only.** The scorer now benchmarks ECs against EC prints,
+  EC district peers and EC rents. An EC that looks "cheap" next to private
+  condos is not cheap; that was the old artifact (EC valuation median 72 → 52
+  once fixed). EC identity comes from URA's records, so a privatised EC that the
+  portal calls "Condominium" is still compared with ECs.
+- **Trailing appreciation is mostly the lifecycle.** EC resale CAGRs (median
+  ~7%/yr 2021–26 vs ~4.7% for OCR condos) carry the subsidised launch price
+  unwinding and the MOP/privatisation re-ratings. The scorer caps an
+  unprivatised EC's rate at the regional baseline (`raw_rate_before_bias_
+  adjustment_pct` keeps the raw number). A buyer entering after MOP captures at
+  most the remaining privatisation step — say how many years are left and
+  whether the price already reflects it (compare with privatised neighbours).
+- **Exit pool shifts at each milestone.** Post-MOP the buyer pool is SC/PR
+  (often HDB upgraders — deep in OCR); after privatisation it widens to
+  foreigners, who rarely buy OCR ECs. Weigh the upgrader pool, not the
+  privatisation headline.
+- **The forward model was never validated on ECs.** The backtest and
+  validation panels are condo-only (EC files are excluded by design). EC MMR
+  rests on structure (size, liquidity, region, age) measured on condos — keep
+  confidence at medium or below unless physical/price evidence is decisive.
+
 ## What the data actually predicts (backtest-calibrated priors, v3.5 — full 28-district panel)
 
 Read this BEFORE the per-factor sections below — it overrides older intuitions
@@ -174,7 +226,9 @@ v3.6.1 tanh-caps the MMR yield credit, but the dossier still displays the raw
 ### 5. Costs & taxes
 
 `roi_projections` / `roi_sensitivity` already include BSD, ABSD, SSD, property
-tax. SSD is why holds are modeled at 5–7yr.
+tax. SSD is why holds are modeled at 5–7yr. ABSD follows the active buyer
+profile (`buyer_type`, `property_count`; SC first property = 0%, PR first
+property = 5%) — without a profile the model assumes an SC's first property.
 
 ### Relative value: new launch vs resale, age-adjusted
 

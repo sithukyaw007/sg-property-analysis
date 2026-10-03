@@ -21,6 +21,35 @@ resale market or a bad exit record disqualifies a home exactly as it does an
 investment. The 0–100 livability score is the filter on survivors, never the
 primary lens. Full comparison: `docs/evaluation-rubric.md`.
 
+## Buyer profile (forks) — read it before asking
+
+`python buyer_profile.py` shows the active profile: a git-ignored
+`profile.local.json` (template: `profile.example.json`) that states purpose,
+buyer type and property count (ABSD), household citizenship (EC eligibility),
+mandates (budget, beds, condo and/or EC), districts, and own-stay anchors
+(workplace postal code, school radii). **When a profile is active it answers the
+purpose check — don't ask again — and its mandate replaces the his/hers block
+below.** With no profile, everything here behaves exactly as for the repo owner.
+
+Profile-aware pieces (none of them touch MMR or `config.py`):
+- `ROICalculator` defaults to the profile's buyer (a PR's first property pays 5%
+  ABSD); `weekly.py` / `shortlist.py` take their mandates and districts from it.
+- **Executive Condominiums** are benchmarked against EC prints only
+  (`ura_district_D*_EC.csv` / `ura_rental_D*_EC.csv`, exported by `ura_api.py`).
+  EC identity comes from URA's records, not the portal label (PropertyGuru calls
+  many privatised ECs "Condominium"). `factual_data.ec_status` gives the MOP /
+  privatisation stage and whether this household may buy (`scoring/ec_rules.py`,
+  rules dated in `data/ec_rules.json`). Unprivatised ECs' trailing appreciation
+  is capped at the regional baseline — the launch subsidy and MOP/privatisation
+  re-rating are not repeatable returns.
+- `python my_shortlist.py` — read-only, own-stay-first candidate list: exit screen
+  first (every rejection reasoned), then personal fit + livability + valuation.
+- `python -m scoring.personal_fit "<condo>" <district>` — commute (OneMap,
+  `utils/onemap.py`) and primary schools within the profile's radii.
+- `python import_listings.py <file>` — terms-safe CSV/JSON listing intake; the
+  fork does not bulk-scrape PropertyGuru. Fresh listings arrive by syncing the
+  upstream repo (`scripts/sync_upstream.sh`).
+
 ## Pick the flow (each has a skill with the full runbook)
 
 | User says… | Flow / skill | Output |
@@ -479,6 +508,11 @@ python invest.py --fetch-ura-districts 3,5,14,15
 
 ```
 invest.py              # CLI: flows, --score, --recall, --search-db, --from-db, --from-review
+buyer_profile.py       # Fork: git-ignored profile.local.json -> mandates, ABSD, EC eligibility
+my_shortlist.py        # Fork: read-only own-stay-first candidate list (exit screen first)
+import_listings.py     # Fork: terms-safe CSV/JSON listing intake (upsert + score)
+build_primary_schools.py # Fork: data/primary_schools.json (MOE + OneMap geocode)
+scripts/sync_upstream.sh # Fork: merge upstream, then re-derive EC data + rescore
 weekly.py              # Weekly scan: MANDATES, poll -> algo grade -> gate -> digest -> store push
 shortlist.py           # Ranked buy-list (eval memory + realsmart + DB), exit-record first
 shortlist_ui.py        # Shortlist viewer (:8644) with the TRAP/HOLDS read chip
@@ -504,6 +538,8 @@ scoring/
   full_scorer.py       # Enrichment + component scoring + tight stack comps
   mmr.py               # MMR (uncapped, continuous) + /1000 norm + trust rules
   livability.py        # 0–100 own-stay heuristic (NEVER folded into MMR)
+  personal_fit.py      # Fork: 0–100 commute + primary schools (profile anchors; never MMR)
+  ec_rules.py          # Fork: EC MOP/privatisation stage + buyer eligibility (data/ec_rules.json)
   raw_output.py        # raw_analysis.json (mode-aware AI instructions)
   models.py            # ScoredListing + verdict_from_rating
   roi.py / costs.py / rental_estimator.py / future_scorer.py / district_scorer.py / quick_scorer.py

@@ -17,6 +17,7 @@ the environment or ~/.config/sgprop/credentials.
 
     python ura_api.py                 # sync + export (condo + EC) + rebuild all caches
     python ura_api.py --no-ec         # condo/apartment files only
+    python ura_api.py --ec-only       # EC files only (forks: condo CSVs come from upstream)
     python ura_api.py --check         # is the API path usable here?
 """
 
@@ -160,6 +161,54 @@ def refresh(transactions: bool = True, rentals: bool = True, force: bool = False
     return out
 
 
+def refresh_ec_only(force: bool = False, accept_shrink: bool = False) -> dict:
+    """Export ONLY the EC files and fold them into the derived caches.
+
+    For forks that take condo/apartment CSVs from upstream (which refreshes them
+    weekly): re-exporting those here would rewrite tracked files for no gain and
+    conflict on every merge. This syncs sgprop's store (a no-op when current),
+    rewrites ura_*_D{NN}_EC.csv, adds EC projects to ura_cache.json without
+    touching condo entries, and rebuilds rental_cache.json / bed_bands.json
+    (both per project, so condo values are unchanged).
+    """
+    from functools import partial
+
+    from sgprop import export
+    from sgprop.store import Store
+    from sgprop.sync import sync_rentals, sync_transactions
+    from sgprop.ura import UraClient
+
+    store, client = Store(), UraClient()
+    skipped: list[str] = []
+    out: dict = {
+        "transactions": sync_transactions(store, client, force=force),
+        "rentals": sync_rentals(store, client, quarters=RENTAL_QUARTERS, force=force),
+    }
+    ec_tx = partial(export.transactions_csv, property_types=export.EC_TYPES)
+    ec_rent = partial(export.rentals_csv, property_types=EC_RENTAL_TYPES)
+    out["ec_tx_rows"] = sum(
+        _export_guarded(ec_tx, store, d, DATA_DIR / f"ura_district_D{d:02d}_EC.csv",
+                        skipped, accept_shrink) for d in ALL_DISTRICTS)
+    out["ec_rent_rows"] = sum(
+        _export_guarded(ec_rent, store, d, DATA_DIR / f"ura_rental_D{d:02d}_EC.csv",
+                        skipped, accept_shrink) for d in ALL_DISTRICTS)
+    import glob as _glob
+
+    from invest import build_ura_cache_from_csv
+    ec_files = sorted(_glob.glob(str(DATA_DIR / "ura_district_D[0-9][0-9]_EC.csv")))
+    if ec_files:
+        cache = build_ura_cache_from_csv(ec_files)
+        out["ec_cache_projects"] = sum(1 for v in cache.values()
+                                       if isinstance(v, dict) and v.get("is_ec"))
+    for script in (["build_rental_cache.py"], ["bed_bands.py", "--build"]):
+        subprocess.run([sys.executable, str(BASE / script[0]), *script[1:]],
+                       cwd=BASE, check=True, stdout=subprocess.DEVNULL)
+    out["rebuilt"] = ["ura_cache.json (EC entries)", "rental_cache.json", "bed_bands.json"]
+    if skipped:
+        out["skipped_districts"] = skipped
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--check", action="store_true")
@@ -170,11 +219,17 @@ def main() -> int:
                     help="write exports even if a district shrank >10%% (after checking)")
     ap.add_argument("--no-ec", action="store_true",
                     help="skip the Executive Condominium sale/rental exports")
+    ap.add_argument("--ec-only", action="store_true",
+                    help="export only the EC files and fold them into the caches "
+                         "(forks that take condo CSVs from upstream)")
     a = ap.parse_args()
     ok, why = available()
     if a.check or not ok:
         print("URA API: ready" if ok else f"URA API unavailable: {why}")
         return 0 if ok else 1
+    if a.ec_only:
+        print(json.dumps(refresh_ec_only(force=a.force, accept_shrink=a.accept_shrink), indent=2))
+        return 0
     print(json.dumps(refresh(transactions=not a.no_transactions,
                              rentals=not a.no_rentals, force=a.force,
                              accept_shrink=a.accept_shrink, ec=not a.no_ec), indent=2))

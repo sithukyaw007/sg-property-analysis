@@ -197,6 +197,39 @@ python realsmart_cache.py --from-db --districts 16,18,19   # warm per-project st
   rather than the listing. Low-volume research lookups only — their terms are
   personal-use.
 
+## Running your own fork
+
+The repo is set up for its owner's household (an SC buyer, two investment
+mandates, a weekly scrape-and-agent loop). A fork for a different buyer needs
+no code edits:
+
+```bash
+python buyer_profile.py --init        # creates git-ignored profile.local.json
+$EDITOR profile.local.json            # purpose, buyer type, budget/beds, condo/EC, districts, anchors
+python buyer_profile.py --check
+python ura_api.py                     # URA sales + rentals incl. Executive Condominiums (needs a free URA key)
+python my_shortlist.py                # own-stay-first candidate list -> output/my_shortlist/
+```
+
+- **Profile** — `profile.local.json` drives mandates, districts, ABSD (buyer
+  type and property count) and EC eligibility (household citizenship). Without
+  it, nothing changes.
+- **Executive Condominiums** — EC sales/rentals are exported to
+  `data/ura_*_D*_EC.csv`; ECs are compared only with ECs, their lifecycle stage
+  and buyer eligibility come from `scoring/ec_rules.py`, and the condo
+  backtest/validation panels exclude them by design.
+- **Own-stay anchors** — `scoring/personal_fit.py` adds commute time (OneMap;
+  put `ONEMAP_EMAIL` / `ONEMAP_PASSWORD` in `~/.config/onemap/credentials`,
+  chmod 600) and primary schools nearby (`data/primary_schools.json`, rebuilt by
+  `build_primary_schools.py`).
+- **Listings without scraping** — `python import_listings.py my_listings.csv`
+  takes listings you collected yourself; `python invest.py --url <listing>` still
+  analyzes one PropertyGuru page. Fresh portal listings arrive by merging the
+  upstream repo: `scripts/sync_upstream.sh`.
+- **Owner-only flows** — `weekly.py`'s store push, the realsmart fetcher and the
+  background `claude -p` agents depend on the owner's personal data store and
+  Claude Code. Run the analyze skills interactively instead.
+
 ## Configuration
 
 Investment parameters and scoring calibration live in `config.py`:
