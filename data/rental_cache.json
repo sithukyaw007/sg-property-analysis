@@ -1,6 +1,6 @@
 {
  "source": "URA PMI rental contracts (fetch_ura_rentals.py)",
- "built": "2026-09-24",
+ "built": "2026-10-03",
  "latest_lease_month": 2026.62,
  "projects": {
   "the clift|1": {
@@ -31871,6 +31871,238 @@
    "window_months": 24,
    "by_beds": {}
   },
+  "citylife@tampines|18": {
+   "project_name": "CITYLIFE@TAMPINES",
+   "district": "D18",
+   "rent_psf": 3.91,
+   "contracts": 41,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 5500,
+     "rent_psf": 4.0,
+     "contracts": 6
+    },
+    "3": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.91,
+     "contracts": 34
+    }
+   }
+  },
+  "simei green condominium|18": {
+   "project_name": "SIMEI GREEN CONDOMINIUM",
+   "district": "D18",
+   "rent_psf": 3.6,
+   "contracts": 84,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 3.6,
+     "contracts": 84
+    }
+   }
+  },
+  "the esparis|18": {
+   "project_name": "THE ESPARIS",
+   "district": "D18",
+   "rent_psf": 3.39,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4350,
+     "rent_psf": 3.42,
+     "contracts": 18
+    },
+    "4": {
+     "monthly_rent": 5000,
+     "rent_psf": 3.38,
+     "contracts": 3
+    }
+   }
+  },
+  "pinevale|18": {
+   "project_name": "PINEVALE",
+   "district": "D18",
+   "rent_psf": 3.68,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4600,
+     "rent_psf": 3.68,
+     "contracts": 22
+    }
+   }
+  },
+  "arc at tampines|18": {
+   "project_name": "ARC AT TAMPINES",
+   "district": "D18",
+   "rent_psf": 4.32,
+   "contracts": 40,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 4.37,
+     "contracts": 24
+    },
+    "2": {
+     "monthly_rent": 3500,
+     "rent_psf": 4.35,
+     "contracts": 13
+    },
+    "4": {
+     "monthly_rent": 4800,
+     "rent_psf": 3.45,
+     "contracts": 3
+    }
+   }
+  },
+  "the tampines trilliant|18": {
+   "project_name": "THE TAMPINES TRILLIANT",
+   "district": "D18",
+   "rent_psf": 4.26,
+   "contracts": 83,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 4.27,
+     "contracts": 82
+    }
+   }
+  },
+  "eastvale|18": {
+   "project_name": "EASTVALE",
+   "district": "D18",
+   "rent_psf": 3.6,
+   "contracts": 45,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.6,
+     "contracts": 45
+    }
+   }
+  },
+  "the eden at tampines|18": {
+   "project_name": "THE EDEN AT TAMPINES",
+   "district": "D18",
+   "rent_psf": 3.46,
+   "contracts": 44,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 3.44,
+     "contracts": 33
+    },
+    "2": {
+     "monthly_rent": 3475,
+     "rent_psf": 4.09,
+     "contracts": 6
+    },
+    "4": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.33,
+     "contracts": 5
+    }
+   }
+  },
+  "sea horizon|18": {
+   "project_name": "SEA HORIZON",
+   "district": "D18",
+   "rent_psf": 3.64,
+   "contracts": 23,
+   "window_months": 12,
+   "by_beds": {
+    "5": {
+     "monthly_rent": 5775,
+     "rent_psf": 3.62,
+     "contracts": 4
+    },
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 3.48,
+     "contracts": 9
+    },
+    "4": {
+     "monthly_rent": 4900,
+     "rent_psf": 3.63,
+     "contracts": 7
+    },
+    "2": {
+     "monthly_rent": 3250,
+     "rent_psf": 4.33,
+     "contracts": 3
+    }
+   }
+  },
+  "watercolours|18": {
+   "project_name": "WATERCOLOURS",
+   "district": "D18",
+   "rent_psf": 3.89,
+   "contracts": 29,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3750,
+     "rent_psf": 3.79,
+     "contracts": 20
+    },
+    "2": {
+     "monthly_rent": 3200,
+     "rent_psf": 4.2,
+     "contracts": 8
+    }
+   }
+  },
+  "whitewater|18": {
+   "project_name": "WHITEWATER",
+   "district": "D18",
+   "rent_psf": 3.39,
+   "contracts": 42,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.41,
+     "contracts": 40
+    }
+   }
+  },
+  "belysa|18": {
+   "project_name": "BELYSA",
+   "district": "D18",
+   "rent_psf": 3.94,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3800,
+     "rent_psf": 4.0,
+     "contracts": 21
+    }
+   }
+  },
+  "parc central residences|18": {
+   "project_name": "PARC CENTRAL RESIDENCES",
+   "district": "D18",
+   "rent_psf": 4.74,
+   "contracts": 3,
+   "window_months": 24,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4500,
+     "rent_psf": 4.74,
+     "contracts": 3
+    }
+   }
+  },
   "stadia|19": {
    "project_name": "STADIA",
    "district": "D19",
@@ -34572,6 +34804,371 @@
     }
    }
   },
+  "waterwoods|19": {
+   "project_name": "WATERWOODS",
+   "district": "D19",
+   "rent_psf": 4.47,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 5500,
+     "rent_psf": 4.4,
+     "contracts": 9
+    },
+    "3": {
+     "monthly_rent": 4400,
+     "rent_psf": 4.19,
+     "contracts": 7
+    },
+    "2": {
+     "monthly_rent": 4000,
+     "rent_psf": 4.71,
+     "contracts": 5
+    }
+   }
+  },
+  "piermont grand|19": {
+   "project_name": "PIERMONT GRAND",
+   "district": "D19",
+   "rent_psf": 4.63,
+   "contracts": 4,
+   "window_months": 24,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4400,
+     "rent_psf": 4.63,
+     "contracts": 4
+    }
+   }
+  },
+  "park green|19": {
+   "project_name": "PARK GREEN",
+   "district": "D19",
+   "rent_psf": 3.19,
+   "contracts": 21,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 4700,
+     "rent_psf": 3.03,
+     "contracts": 5
+    },
+    "3": {
+     "monthly_rent": 3975,
+     "rent_psf": 3.23,
+     "contracts": 16
+    }
+   }
+  },
+  "rivercove residences|19": {
+   "project_name": "RIVERCOVE RESIDENCES",
+   "district": "D19",
+   "rent_psf": 4.11,
+   "contracts": 23,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 4900,
+     "rent_psf": 4.13,
+     "contracts": 4
+    },
+    "3": {
+     "monthly_rent": 3950,
+     "rent_psf": 4.11,
+     "contracts": 18
+    }
+   }
+  },
+  "twin waterfalls|19": {
+   "project_name": "TWIN WATERFALLS",
+   "district": "D19",
+   "rent_psf": 3.91,
+   "contracts": 63,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4025,
+     "rent_psf": 3.91,
+     "contracts": 62
+    }
+   }
+  },
+  "the amore|19": {
+   "project_name": "THE AMORE",
+   "district": "D19",
+   "rent_psf": 4.11,
+   "contracts": 19,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 4.11,
+     "contracts": 11
+    },
+    "4": {
+     "monthly_rent": 4975,
+     "rent_psf": 3.69,
+     "contracts": 4
+    },
+    "2": {
+     "monthly_rent": 3250,
+     "rent_psf": 4.33,
+     "contracts": 3
+    }
+   }
+  },
+  "esparina residences|19": {
+   "project_name": "ESPARINA RESIDENCES",
+   "district": "D19",
+   "rent_psf": 4.35,
+   "contracts": 59,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3725,
+     "rent_psf": 4.38,
+     "contracts": 24
+    },
+    "3": {
+     "monthly_rent": 4550,
+     "rent_psf": 4.29,
+     "contracts": 35
+    }
+   }
+  },
+  "the terrace|19": {
+   "project_name": "THE TERRACE",
+   "district": "D19",
+   "rent_psf": 3.9,
+   "contracts": 25,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 3.9,
+     "contracts": 23
+    }
+   }
+  },
+  "the rivervale|19": {
+   "project_name": "THE RIVERVALE",
+   "district": "D19",
+   "rent_psf": 3.04,
+   "contracts": 45,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 3.08,
+     "contracts": 44
+    }
+   }
+  },
+  "the vales|19": {
+   "project_name": "THE VALES",
+   "district": "D19",
+   "rent_psf": 4.29,
+   "contracts": 49,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3500,
+     "rent_psf": 4.67,
+     "contracts": 17
+    },
+    "4": {
+     "monthly_rent": 5650,
+     "rent_psf": 3.9,
+     "contracts": 6
+    },
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 4.21,
+     "contracts": 26
+    }
+   }
+  },
+  "heron bay|19": {
+   "project_name": "HERON BAY",
+   "district": "D19",
+   "rent_psf": 3.81,
+   "contracts": 16,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.81,
+     "contracts": 11
+    },
+    "2": {
+     "monthly_rent": 3500,
+     "rent_psf": 4.67,
+     "contracts": 3
+    }
+   }
+  },
+  "austville residences|19": {
+   "project_name": "AUSTVILLE RESIDENCES",
+   "district": "D19",
+   "rent_psf": 3.89,
+   "contracts": 36,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3300,
+     "rent_psf": 4.12,
+     "contracts": 15
+    },
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.81,
+     "contracts": 19
+    }
+   }
+  },
+  "the florida|19": {
+   "project_name": "THE FLORIDA",
+   "district": "D19",
+   "rent_psf": 3.2,
+   "contracts": 37,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 3.2,
+     "contracts": 37
+    }
+   }
+  },
+  "riverparc residence|19": {
+   "project_name": "RIVERPARC RESIDENCE",
+   "district": "D19",
+   "rent_psf": 4.0,
+   "contracts": 20,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4025,
+     "rent_psf": 4.0,
+     "contracts": 14
+    },
+    "2": {
+     "monthly_rent": 3600,
+     "rent_psf": 4.24,
+     "contracts": 3
+    },
+    "4": {
+     "monthly_rent": 5500,
+     "rent_psf": 4.0,
+     "contracts": 3
+    }
+   }
+  },
+  "treasure crest|19": {
+   "project_name": "TREASURE CREST",
+   "district": "D19",
+   "rent_psf": 4.0,
+   "contracts": 24,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 4.0,
+     "contracts": 24
+    }
+   }
+  },
+  "prive|19": {
+   "project_name": "PRIVE",
+   "district": "D19",
+   "rent_psf": 4.14,
+   "contracts": 78,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3500,
+     "rent_psf": 4.47,
+     "contracts": 33
+    },
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 4.1,
+     "contracts": 43
+    }
+   }
+  },
+  "hundred palms residences|19": {
+   "project_name": "HUNDRED PALMS RESIDENCES",
+   "district": "D19",
+   "rent_psf": 4.32,
+   "contracts": 42,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 4.32,
+     "contracts": 40
+    }
+   }
+  },
+  "waterbay|19": {
+   "project_name": "WATERBAY",
+   "district": "D19",
+   "rent_psf": 4.1,
+   "contracts": 19,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 4.1,
+     "contracts": 12
+    },
+    "4": {
+     "monthly_rent": 4900,
+     "rent_psf": 3.91,
+     "contracts": 5
+    }
+   }
+  },
+  "ecopolitan|19": {
+   "project_name": "ECOPOLITAN",
+   "district": "D19",
+   "rent_psf": 3.83,
+   "contracts": 26,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4150,
+     "rent_psf": 3.81,
+     "contracts": 19
+    },
+    "4": {
+     "monthly_rent": 4625,
+     "rent_psf": 3.88,
+     "contracts": 6
+    }
+   }
+  },
+  "bellewaters|19": {
+   "project_name": "BELLEWATERS",
+   "district": "D19",
+   "rent_psf": 4.05,
+   "contracts": 12,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 4.1,
+     "contracts": 9
+    },
+    "4": {
+     "monthly_rent": 4600,
+     "rent_psf": 4.0,
+     "contracts": 3
+    }
+   }
+  },
   "clover by the park|20": {
    "project_name": "CLOVER BY THE PARK",
    "district": "D20",
@@ -35401,6 +35998,39 @@
    "contracts": 3,
    "window_months": 24,
    "by_beds": {}
+  },
+  "bishan loft|20": {
+   "project_name": "BISHAN LOFT",
+   "district": "D20",
+   "rent_psf": 4.3,
+   "contracts": 25,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 5550,
+     "rent_psf": 4.33,
+     "contracts": 20
+    },
+    "4": {
+     "monthly_rent": 5800,
+     "rent_psf": 4.0,
+     "contracts": 5
+    }
+   }
+  },
+  "nuovo|20": {
+   "project_name": "NUOVO",
+   "district": "D20",
+   "rent_psf": 3.39,
+   "contracts": 21,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4600,
+     "rent_psf": 3.39,
+     "contracts": 19
+    }
+   }
   },
   "le wood|21": {
    "project_name": "LE WOOD",
@@ -37076,6 +37706,106 @@
    "window_months": 24,
    "by_beds": {}
   },
+  "westwood residences|22": {
+   "project_name": "WESTWOOD RESIDENCES",
+   "district": "D22",
+   "rent_psf": 4.95,
+   "contracts": 77,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 5000,
+     "rent_psf": 4.76,
+     "contracts": 40
+    },
+    "2": {
+     "monthly_rent": 3700,
+     "rent_psf": 5.63,
+     "contracts": 10
+    },
+    "4": {
+     "monthly_rent": 6000,
+     "rent_psf": 5.08,
+     "contracts": 24
+    },
+    "5": {
+     "monthly_rent": 8300,
+     "rent_psf": 5.72,
+     "contracts": 3
+    }
+   }
+  },
+  "lake life|22": {
+   "project_name": "LAKE LIFE",
+   "district": "D22",
+   "rent_psf": 4.38,
+   "contracts": 50,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 5450,
+     "rent_psf": 4.35,
+     "contracts": 29
+    },
+    "3": {
+     "monthly_rent": 4900,
+     "rent_psf": 4.67,
+     "contracts": 15
+    },
+    "2": {
+     "monthly_rent": 3700,
+     "rent_psf": 4.93,
+     "contracts": 3
+    },
+    "5": {
+     "monthly_rent": 6000,
+     "rent_psf": 3.64,
+     "contracts": 3
+    }
+   }
+  },
+  "the floravale|22": {
+   "project_name": "THE FLORAVALE",
+   "district": "D22",
+   "rent_psf": 3.56,
+   "contracts": 87,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4700,
+     "rent_psf": 3.56,
+     "contracts": 87
+    }
+   }
+  },
+  "summerdale|22": {
+   "project_name": "SUMMERDALE",
+   "district": "D22",
+   "rent_psf": 3.84,
+   "contracts": 61,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4800,
+     "rent_psf": 3.84,
+     "contracts": 61
+    }
+   }
+  },
+  "westmere|22": {
+   "project_name": "WESTMERE",
+   "district": "D22",
+   "rent_psf": 3.91,
+   "contracts": 32,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.91,
+     "contracts": 32
+    }
+   }
+  },
   "hillview park|23": {
    "project_name": "HILLVIEW PARK",
    "district": "D23",
@@ -38286,6 +39016,181 @@
     }
    }
   },
+  "yew mei green|23": {
+   "project_name": "YEW MEI GREEN",
+   "district": "D23",
+   "rent_psf": 3.12,
+   "contracts": 45,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4075,
+     "rent_psf": 3.13,
+     "contracts": 44
+    }
+   }
+  },
+  "the dew|23": {
+   "project_name": "THE DEW",
+   "district": "D23",
+   "rent_psf": 3.26,
+   "contracts": 17,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 3.26,
+     "contracts": 17
+    }
+   }
+  },
+  "inz residence|23": {
+   "project_name": "INZ RESIDENCE",
+   "district": "D23",
+   "rent_psf": 3.96,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3975,
+     "rent_psf": 4.05,
+     "contracts": 16
+    },
+    "4": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.91,
+     "contracts": 3
+    }
+   }
+  },
+  "the quintet|23": {
+   "project_name": "THE QUINTET",
+   "district": "D23",
+   "rent_psf": 3.2,
+   "contracts": 23,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4175,
+     "rent_psf": 3.3,
+     "contracts": 18
+    },
+    "4": {
+     "monthly_rent": 4800,
+     "rent_psf": 3.03,
+     "contracts": 5
+    }
+   }
+  },
+  "the rainforest|23": {
+   "project_name": "THE RAINFOREST",
+   "district": "D23",
+   "rent_psf": 4.22,
+   "contracts": 20,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4250,
+     "rent_psf": 4.21,
+     "contracts": 15
+    },
+    "2": {
+     "monthly_rent": 3900,
+     "rent_psf": 4.59,
+     "contracts": 3
+    }
+   }
+  },
+  "windermere|23": {
+   "project_name": "WINDERMERE",
+   "district": "D23",
+   "rent_psf": 2.97,
+   "contracts": 17,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 2.97,
+     "contracts": 17
+    }
+   }
+  },
+  "sol acres|23": {
+   "project_name": "SOL ACRES",
+   "district": "D23",
+   "rent_psf": 4.47,
+   "contracts": 101,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3500,
+     "rent_psf": 4.47,
+     "contracts": 53
+    },
+    "1": {
+     "monthly_rent": 2975,
+     "rent_psf": 5.73,
+     "contracts": 24
+    },
+    "3": {
+     "monthly_rent": 3900,
+     "rent_psf": 4.0,
+     "contracts": 20
+    },
+    "4": {
+     "monthly_rent": 4200,
+     "rent_psf": 3.51,
+     "contracts": 4
+    }
+   }
+  },
+  "blossom residences|23": {
+   "project_name": "BLOSSOM RESIDENCES",
+   "district": "D23",
+   "rent_psf": 3.81,
+   "contracts": 15,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.81,
+     "contracts": 11
+    }
+   }
+  },
+  "chestervale|23": {
+   "project_name": "CHESTERVALE",
+   "district": "D23",
+   "rent_psf": 2.9,
+   "contracts": 6,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 2.9,
+     "contracts": 6
+    }
+   }
+  },
+  "wandervale|23": {
+   "project_name": "WANDERVALE",
+   "district": "D23",
+   "rent_psf": 4.0,
+   "contracts": 19,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 4.0,
+     "contracts": 15
+    },
+    "4": {
+     "monthly_rent": 5050,
+     "rent_psf": 4.04,
+     "contracts": 4
+    }
+   }
+  },
   "rosewood suites|25": {
    "project_name": "ROSEWOOD SUITES",
    "district": "D25",
@@ -38426,6 +39331,139 @@
      "monthly_rent": 5350,
      "rent_psf": 4.54,
      "contracts": 20
+    }
+   }
+  },
+  "bellewoods|25": {
+   "project_name": "BELLEWOODS",
+   "district": "D25",
+   "rent_psf": 3.91,
+   "contracts": 18,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4150,
+     "rent_psf": 4.15,
+     "contracts": 10
+    },
+    "4": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.74,
+     "contracts": 7
+    }
+   }
+  },
+  "forestville|25": {
+   "project_name": "FORESTVILLE",
+   "district": "D25",
+   "rent_psf": 4.0,
+   "contracts": 51,
+   "window_months": 12,
+   "by_beds": {
+    "4": {
+     "monthly_rent": 4500,
+     "rent_psf": 3.74,
+     "contracts": 9
+    },
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 4.0,
+     "contracts": 38
+    },
+    "2": {
+     "monthly_rent": 3450,
+     "rent_psf": 4.06,
+     "contracts": 4
+    }
+   }
+  },
+  "la casa|25": {
+   "project_name": "LA CASA",
+   "district": "D25",
+   "rent_psf": 3.74,
+   "contracts": 39,
+   "window_months": 12,
+   "by_beds": {
+    "2": {
+     "monthly_rent": 3600,
+     "rent_psf": 3.79,
+     "contracts": 11
+    },
+    "3": {
+     "monthly_rent": 4250,
+     "rent_psf": 3.65,
+     "contracts": 28
+    }
+   }
+  },
+  "northoaks|25": {
+   "project_name": "NORTHOAKS",
+   "district": "D25",
+   "rent_psf": 3.28,
+   "contracts": 82,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 3.2,
+     "contracts": 77
+    },
+    "2": {
+     "monthly_rent": 3800,
+     "rent_psf": 3.33,
+     "contracts": 5
+    }
+   }
+  },
+  "northwave|25": {
+   "project_name": "NORTHWAVE",
+   "district": "D25",
+   "rent_psf": 4.21,
+   "contracts": 30,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3933,
+     "rent_psf": 4.14,
+     "contracts": 19
+    },
+    "2": {
+     "monthly_rent": 3200,
+     "rent_psf": 4.53,
+     "contracts": 11
+    }
+   }
+  },
+  "woodsvale|25": {
+   "project_name": "WOODSVALE",
+   "district": "D25",
+   "rent_psf": 3.28,
+   "contracts": 99,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4200,
+     "rent_psf": 3.28,
+     "contracts": 99
+    }
+   }
+  },
+  "twin fountains|25": {
+   "project_name": "TWIN FOUNTAINS",
+   "district": "D25",
+   "rent_psf": 4.0,
+   "contracts": 29,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 4.0,
+     "contracts": 23
+    },
+    "4": {
+     "monthly_rent": 4700,
+     "rent_psf": 3.76,
+     "contracts": 5
     }
    }
   },
@@ -39288,6 +40326,197 @@
    "window_months": 24,
    "by_beds": {}
   },
+  "the brownstone|27": {
+   "project_name": "THE BROWNSTONE",
+   "district": "D27",
+   "rent_psf": 4.42,
+   "contracts": 84,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 4.42,
+     "contracts": 62
+    },
+    "2": {
+     "monthly_rent": 3300,
+     "rent_psf": 4.4,
+     "contracts": 7
+    },
+    "4": {
+     "monthly_rent": 4700,
+     "rent_psf": 4.26,
+     "contracts": 15
+    }
+   }
+  },
+  "parc life|27": {
+   "project_name": "PARC LIFE",
+   "district": "D27",
+   "rent_psf": 3.9,
+   "contracts": 37,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 3.9,
+     "contracts": 34
+    }
+   }
+  },
+  "the canopy|27": {
+   "project_name": "THE CANOPY",
+   "district": "D27",
+   "rent_psf": 3.67,
+   "contracts": 36,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4325,
+     "rent_psf": 3.48,
+     "contracts": 12
+    },
+    "4": {
+     "monthly_rent": 5400,
+     "rent_psf": 3.72,
+     "contracts": 3
+    },
+    "2": {
+     "monthly_rent": 3700,
+     "rent_psf": 4.0,
+     "contracts": 21
+    }
+   }
+  },
+  "signature at yishun|27": {
+   "project_name": "SIGNATURE AT YISHUN",
+   "district": "D27",
+   "rent_psf": 3.81,
+   "contracts": 19,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.81,
+     "contracts": 11
+    },
+    "4": {
+     "monthly_rent": 4250,
+     "rent_psf": 3.61,
+     "contracts": 3
+    },
+    "2": {
+     "monthly_rent": 3300,
+     "rent_psf": 4.4,
+     "contracts": 5
+    }
+   }
+  },
+  "the criterion|27": {
+   "project_name": "THE CRITERION",
+   "district": "D27",
+   "rent_psf": 4.0,
+   "contracts": 38,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3888,
+     "rent_psf": 4.0,
+     "contracts": 29
+    },
+    "2": {
+     "monthly_rent": 3300,
+     "rent_psf": 5.08,
+     "contracts": 5
+    },
+    "4": {
+     "monthly_rent": 4550,
+     "rent_psf": 3.88,
+     "contracts": 4
+    }
+   }
+  },
+  "1 canberra|27": {
+   "project_name": "1 CANBERRA",
+   "district": "D27",
+   "rent_psf": 3.75,
+   "contracts": 32,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3800,
+     "rent_psf": 3.76,
+     "contracts": 29
+    },
+    "4": {
+     "monthly_rent": 4950,
+     "rent_psf": 2.98,
+     "contracts": 3
+    }
+   }
+  },
+  "skypark residences|27": {
+   "project_name": "SKYPARK RESIDENCES",
+   "district": "D27",
+   "rent_psf": 3.74,
+   "contracts": 22,
+   "window_months": 12,
+   "by_beds": {
+    "5": {
+     "monthly_rent": 6300,
+     "rent_psf": 4.06,
+     "contracts": 3
+    },
+    "3": {
+     "monthly_rent": 4300,
+     "rent_psf": 3.74,
+     "contracts": 13
+    },
+    "4": {
+     "monthly_rent": 4950,
+     "rent_psf": 3.63,
+     "contracts": 6
+    }
+   }
+  },
+  "lilydale|27": {
+   "project_name": "LILYDALE",
+   "district": "D27",
+   "rent_psf": 3.3,
+   "contracts": 30,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 3.3,
+     "contracts": 30
+    }
+   }
+  },
+  "the visionaire|27": {
+   "project_name": "THE VISIONAIRE",
+   "district": "D27",
+   "rent_psf": 4.21,
+   "contracts": 56,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4000,
+     "rent_psf": 4.21,
+     "contracts": 39
+    },
+    "4": {
+     "monthly_rent": 4750,
+     "rent_psf": 3.96,
+     "contracts": 13
+    },
+    "2": {
+     "monthly_rent": 3350,
+     "rent_psf": 4.47,
+     "contracts": 4
+    }
+   }
+  },
   "the greenwich|28": {
    "project_name": "THE GREENWICH",
    "district": "D28",
@@ -39614,6 +40843,49 @@
    "contracts": 6,
    "window_months": 12,
    "by_beds": {}
+  },
+  "the topiary|28": {
+   "project_name": "THE TOPIARY",
+   "district": "D28",
+   "rent_psf": 3.95,
+   "contracts": 42,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 3800,
+     "rent_psf": 4.0,
+     "contracts": 21
+    },
+    "4": {
+     "monthly_rent": 4700,
+     "rent_psf": 3.63,
+     "contracts": 15
+    },
+    "2": {
+     "monthly_rent": 3125,
+     "rent_psf": 4.17,
+     "contracts": 6
+    }
+   }
+  },
+  "lush acres|28": {
+   "project_name": "LUSH ACRES",
+   "district": "D28",
+   "rent_psf": 3.89,
+   "contracts": 11,
+   "window_months": 12,
+   "by_beds": {
+    "3": {
+     "monthly_rent": 4100,
+     "rent_psf": 4.0,
+     "contracts": 7
+    },
+    "4": {
+     "monthly_rent": 4900,
+     "rent_psf": 3.09,
+     "contracts": 4
+    }
+   }
   }
  }
 }

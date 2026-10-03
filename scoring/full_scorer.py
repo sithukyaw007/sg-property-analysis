@@ -156,10 +156,35 @@ def _load_district_prints(dcode: str) -> dict:
 def _listing_is_ec(listing: dict) -> bool:
     """Whether a listing is an Executive Condominium (so it must benchmark
     against EC prints, not condo medians). ECs are a distinct URA product type
-    (subsidized, 5-year MOP, privatized at year 10) that trades at its own PSF
-    level. Detection is the scraped `property_type` — the canonical signal the
-    ingest format-flag (_APARTMENT_FORMATS) and the URA fetch both key on."""
-    return (listing.get("property_type") or "").strip().lower() == "executive condominium"
+    (subsidized, MOP, then privatised) that trades at its own PSF level.
+
+    Two signals: the scraped `property_type`, and URA's own record of the
+    project. PropertyGuru labels many ECs — especially privatised ones such as
+    Yew Mei Green or Bellewaters — as "Condominium" (442 such listings in the
+    DB when EC prints were first exported). When every URA print for the
+    project in its district is an EC print, the listing is an EC whatever the
+    portal says. URA never downgrades an EC label: mixed or absent prints fall
+    back to the label.
+    """
+    if (listing.get("property_type") or "").strip().lower() == "executive condominium":
+        return True
+    return _project_is_ec_by_ura(listing.get("project_name") or listing.get("title"),
+                                 listing.get("district"))
+
+
+def _project_is_ec_by_ura(project_name: str | None, district) -> bool:
+    """True when URA files ALL of the project's prints in that district as EC."""
+    dcode = normalize_district(str(district or ""))
+    name = _pu_normalize(project_name or "")
+    if not (dcode and name):
+        return False
+    prints = _load_district_prints(dcode).get(name)
+    return bool(prints) and all(t[5] for t in prints)
+
+
+def listing_is_ec(listing: dict) -> bool:
+    """Public alias for callers outside the scorer (my_shortlist, reports)."""
+    return _listing_is_ec(listing)
 
 
 # Reserved key inside a district's prints dict for memoized index ratios.
@@ -169,7 +194,7 @@ def _listing_is_ec(listing: dict) -> bool:
 _STALE_INDEX_CACHE_KEY = "__stale_index_ratios__"
 
 
-def _district_psf_index_ratio(dcode: str, anchor_ym: int) -> "float | None":
+def _district_psf_index_ratio(dcode: str, anchor_ym: int, want_ec: bool = False) -> "float | None":
     """District price-index ratio for time-indexing stale prints (v3.8.1).
 
     ratio = median PSF of the district's prints in the trailing 24mo (all
@@ -178,7 +203,9 @@ def _district_psf_index_ratio(dcode: str, anchor_ym: int) -> "float | None":
     STALE_INDEX_RATIO_CLAMP. Multiplying a stale print's PSF by it re-values
     the print in today's terms. Returns None when either window holds fewer
     than STALE_INDEX_MIN_DISTRICT_PRINTS prints — no index, no comps.
-    `anchor_ym` is an integer month index (year*12 + month).
+    `anchor_ym` is an integer month index (year*12 + month). `want_ec` keeps
+    the index within one product: EC prints index EC prints, condo prints
+    index condo prints (the two move at different levels and paces).
     """
     import config
     import statistics
@@ -186,7 +213,7 @@ def _district_psf_index_ratio(dcode: str, anchor_ym: int) -> "float | None":
     cache = dprints.setdefault(_STALE_INDEX_CACHE_KEY, {})
     now = datetime.now()
     now_ym = now.year * 12 + now.month
-    key = (anchor_ym, now_ym)
+    key = (anchor_ym, now_ym, bool(want_ec))
     if key in cache:
         return cache[key]
     cutoff = now_ym - FullScorer.TIGHT_COMP_WINDOW_MONTHS
@@ -195,7 +222,7 @@ def _district_psf_index_ratio(dcode: str, anchor_ym: int) -> "float | None":
         if name == _STALE_INDEX_CACHE_KEY:
             continue
         for t in plist:
-            if t[3] is None:
+            if t[3] is None or bool(t[5]) != bool(want_ec):
                 continue
             ym = t[3].year * 12 + t[3].month
             if ym >= cutoff:
@@ -394,6 +421,7 @@ class FullScorer:
         self.rental_estimator = RentalEstimator(condo_rental_data)
         self.roi_calculator = ROICalculator()
         self.cost_calculator = CostCalculator()
+        self._current_is_ec = False  # set per listing in score()
         self.future_scorer = FutureScorer()  # NEW
         self.district_data = _load_district_data()
         self.district_profiles = self._load_district_profiles()
@@ -481,11 +509,15 @@ class FullScorer:
         """Look up URA data with fuzzy matching.
 
         Tries exact match first, then normalized token overlap matching
-        to reduce false positives from naive substring checks.
+        to reduce false positives from naive substring checks. Only entries of
+        the listing's own product are eligible (EC ↔ EC, condo ↔ condo).
         """
+        want_ec = bool(getattr(self, "_current_is_ec", False))
+        data = self._ura_by_kind(want_ec)
+
         # Exact match
-        if project_key in self.ura_data:
-            return self.ura_data[project_key]
+        if project_key in data:
+            return data[project_key]
 
         if not project_key:
             return None
@@ -510,9 +542,9 @@ class FullScorer:
             return None
 
         # Try normalized exact match against normalized cache keys
-        for cache_key in self.ura_data:
+        for cache_key in data:
             if normalize(cache_key) == normalized:
-                return self.ura_data[cache_key]
+                return data[cache_key]
 
         # Token overlap match (prefer strongest overlap, avoid loose substring)
         target_tokens = tokenize(project_key)
@@ -522,13 +554,13 @@ class FullScorer:
         best_key = None
         best_score = 0.0
 
-        for cache_key in self.ura_data:
+        for cache_key in data:
             if cache_key == project_key:
-                return self.ura_data[cache_key]
+                return data[cache_key]
 
             cache_norm = normalize(cache_key)
             if cache_norm == normalized:
-                return self.ura_data[cache_key]
+                return data[cache_key]
 
             cache_tokens = tokenize(cache_key)
             if len(cache_tokens) < 2:
@@ -547,9 +579,25 @@ class FullScorer:
                 best_key = cache_key
 
         if best_key:
-            return self.ura_data[best_key]
+            return data[best_key]
 
         return None
+
+    def _ura_by_kind(self, want_ec: bool) -> dict:
+        """self.ura_data restricted to one product (EC or condo), memoized.
+
+        Rebuilt if ura_data is replaced. Entries without `is_ec` are condos —
+        the whole cache before the EC export existed — so condo lookups see
+        exactly what they always saw.
+        """
+        memo = getattr(self, "_ura_kind_memo", None)
+        if memo is None or memo[0] is not self.ura_data:
+            ec = {k: v for k, v in self.ura_data.items()
+                  if isinstance(v, dict) and v.get("is_ec")}
+            condo = {k: v for k, v in self.ura_data.items() if k not in ec}
+            memo = (self.ura_data, condo, ec)
+            self._ura_kind_memo = memo
+        return memo[2] if want_ec else memo[1]
 
     def _get_appreciation_rate(
         self,
@@ -722,6 +770,56 @@ class FullScorer:
 
         return adjusted_rate, actual_adjustment, reason
 
+    def _ec_status(self, listing: dict, ura_entry: Optional[dict]) -> dict:
+        """EC lifecycle stage + eligibility for the active buyer profile.
+
+        The land award year comes from URA's tenure string (the EC's own cache
+        entry); the portal's tenure ("99-year Leasehold") carries no year.
+        """
+        from scoring import ec_rules
+        import buyer_profile
+        try:
+            prof = buyer_profile.active()
+        except Exception:
+            prof = None
+        return ec_rules.ec_status(
+            top_year=listing.get("built_year"),
+            tenure=(ura_entry or {}).get("tenure") or listing.get("tenure"),
+            household_citizenship=prof.household_citizenship if prof else None,
+        )
+
+    def _apply_ec_lifecycle_adjustment(
+        self, rate: float, adjustment: float, reason: str, listing: dict,
+        appreciation_source: str, ec_status: dict,
+    ) -> tuple[float, float, str]:
+        """Cap an EC's trailing appreciation at the regional baseline while its
+        5-year window still contains lifecycle re-rating.
+
+        An EC's trailing CAGR (median 7.0%/yr resale-only vs 4.7% for OCR
+        condos, 2021-26) is mostly the EC lifecycle, not market momentum: the
+        subsidised launch price unwinding, then the MOP and privatisation
+        re-ratings. A buyer entering now captures at most what is left of that
+        path, and the forward model was never validated on ECs. So — like the
+        new-launch bias, and for the same reason — the excess above the
+        regional baseline is discounted until the project privatised more than
+        five years ago (then its window is ordinary condo trading). The raw
+        rate stays visible in factual_data for the agent to judge.
+        """
+        if appreciation_source in {"default", "regional_baseline"}:
+            return rate, adjustment, reason
+        priv_year = ec_status.get("privatised_year")
+        if priv_year is not None and priv_year <= self._current_year - 5:
+            return rate, adjustment, reason
+        baseline = self._get_regional_baseline(listing)
+        if rate <= baseline:
+            return rate, adjustment, reason
+        delta = baseline - rate
+        why = (f"EC lifecycle adj: trailing {rate * 100:.1f}%/yr capped at the "
+               f"{baseline * 100:.1f}% regional baseline (stage {ec_status.get('stage')}, "
+               f"privatises {priv_year or 'unknown'}) — launch subsidy and MOP/privatisation "
+               f"re-rating are not repeatable forward returns")
+        return baseline, adjustment + delta, (f"{reason}; {why}" if reason else why)
+
     def score(self, listing: dict[str, Any]) -> ScoredListing:
         """
         Perform full scoring of a listing.
@@ -736,6 +834,10 @@ class FullScorer:
         if listing.get("district"):
             listing = dict(listing)
             listing["district"] = normalize_district(listing.get("district", "")) or listing.get("district")
+        # Which URA product this listing is: _fuzzy_ura_lookup only ever joins an
+        # EC to EC project stats and a condo to condo stats (ECs carry `is_ec`
+        # in the cache since the EC export landed).
+        self._current_is_ec = _listing_is_ec(listing)
 
         # v3.5: fill total_units + coordinates from the URA dwelling-units GIS
         # layer when the scrape didn't provide them (it almost never does) —
@@ -801,6 +903,13 @@ class FullScorer:
             raw_rate, listing, appreciation_source, has_new_launch_bias,
         )
 
+        # Executive Condominiums: lifecycle facts + appreciation de-bias.
+        ec_status = None
+        if self._current_is_ec:
+            ec_status = self._ec_status(listing, ura_entry)
+            adjusted_rate, adjustment, adj_reason = self._apply_ec_lifecycle_adjustment(
+                adjusted_rate, adjustment, adj_reason, listing, appreciation_source, ec_status)
+
         scored.raw_appreciation_rate = raw_rate
         scored.appreciation_rate = adjusted_rate  # Use adjusted rate everywhere
         scored.appreciation_source = appreciation_source
@@ -812,6 +921,8 @@ class FullScorer:
 
         # Score each category
         breakdown = {}
+        if ec_status is not None:
+            breakdown["ec_status"] = ec_status
 
         # A. Rental Yield Potential (15 pts - reduced from 30)
         rental_scores = self._score_rental_yield(listing, scored)
@@ -846,9 +957,11 @@ class FullScorer:
 
         scored.score_breakdown = breakdown
 
-        # Age-adjusted relative value vs district peers (None when data thin)
+        # Age-adjusted relative value vs district peers (None when data thin).
+        # An EC benchmarks against EC peers only, a condo against condos only.
         from scoring.relative_value import relative_value_for_listing
-        rel_value = relative_value_for_listing(scored, self.ura_data, self._current_year)
+        rel_value = relative_value_for_listing(scored, self.ura_data, self._current_year,
+                                               subject_is_ec=_listing_is_ec(listing))
         if rel_value:
             breakdown["relative_value"] = rel_value
 
@@ -1899,7 +2012,8 @@ class FullScorer:
         mid = len(months) // 2
         anchor_ym = (months[mid] if len(months) % 2
                      else round((months[mid - 1] + months[mid]) / 2))
-        ratio = _district_psf_index_ratio(dcode, anchor_ym)
+        ratio = _district_psf_index_ratio(dcode, anchor_ym,
+                                          want_ec=bool(dated and dated[0][5]))
         if ratio is None:
             return None, n_recent, None, None, latest, False
         vals = sorted(t[1] * ratio for t in dated)

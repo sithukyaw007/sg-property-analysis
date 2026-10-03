@@ -256,6 +256,10 @@ def build_ura_cache_from_csv(csv_patterns: list[str]) -> dict:
 
     for csv_path in csv_files:
         print(f"  {csv_path}", file=sys.stderr)
+        # Executive Condominium prints live in their own *_EC.csv files (a
+        # separate URA product). Tag their projects so cross-project consumers
+        # (district peers, district rates, lookups) never mix ECs with condos.
+        is_ec_file = os.path.basename(csv_path).upper().endswith("_EC.CSV")
         try:
             # One history PER PROJECT — district CSVs hold many projects; the
             # old single-history path mixed their PSF under one arbitrary name.
@@ -323,6 +327,8 @@ def build_ura_cache_from_csv(csv_patterns: list[str]) -> dict:
                     # Applied in _check_psf_overpricing.
                     "floor_factors": project_floor_factors(history) or floor_factors,
                 }
+                if is_ec_file:
+                    cache_entry["is_ec"] = True
                 cache[project_key] = cache_entry
 
                 # Log with new-launch bias info

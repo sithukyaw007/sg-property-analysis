@@ -15,7 +15,8 @@ rental medians and bed bands were built on a truncated sample until this.
 The key never lives in this (public) repo: sgprop reads URA_ACCESS_KEY from
 the environment or ~/.config/sgprop/credentials.
 
-    python ura_api.py                 # sync + export + rebuild all caches
+    python ura_api.py                 # sync + export (condo + EC) + rebuild all caches
+    python ura_api.py --no-ec         # condo/apartment files only
     python ura_api.py --check         # is the API path usable here?
 """
 
@@ -40,6 +41,10 @@ RENTAL_QUARTERS = 12
 # An export that comes back much smaller than the file it replaces is treated
 # as a bad sync, not as the market shrinking: the district keeps its old file.
 MIN_KEEP_RATIO = 0.9
+
+# URA's rental API labels EC contracts with their own property type; sgprop's
+# default rental export is "Non-landed Properties" only.
+EC_RENTAL_TYPES = ("Executive Condominium",)
 
 
 def _rows(path: Path) -> int:
@@ -91,13 +96,22 @@ def available() -> tuple[bool, str]:
 
 
 def refresh(transactions: bool = True, rentals: bool = True, force: bool = False,
-            rebuild: bool = True, accept_shrink: bool = False) -> dict:
+            rebuild: bool = True, accept_shrink: bool = False, ec: bool = True) -> dict:
     """Sync from URA, export district CSVs, and rebuild the derived caches.
 
     Sync is a no-op when sgprop's store is already newer than URA's last
     publish (Tue/Fri for sales, the 15th for rentals), but the CSV export
     always runs: it is ~2 s and keeps data/ in step with the store.
+
+    `ec` (default on) also exports Executive Condominium sales to
+    ura_district_D{NN}_EC.csv and EC rentals to ura_rental_D{NN}_EC.csv. ECs
+    are a separate URA product that trades at its own PSF level, so they live
+    in their own files: the condo files (and every backtest/validation panel
+    built from them) stay byte-identical, while EC listings finally get EC
+    comps instead of condo medians. Districts with no EC activity get no file.
     """
+    from functools import partial
+
     from sgprop import export
     from sgprop.store import Store
     from sgprop.sync import sync_rentals, sync_transactions
@@ -112,6 +126,12 @@ def refresh(transactions: bool = True, rentals: bool = True, force: bool = False
             _export_guarded(export.transactions_csv, store, d,
                             DATA_DIR / f"ura_district_D{d:02d}.csv", skipped, accept_shrink)
             for d in ALL_DISTRICTS)
+        if ec:
+            ec_tx = partial(export.transactions_csv, property_types=export.EC_TYPES)
+            out["ec_tx_rows"] = sum(
+                _export_guarded(ec_tx, store, d,
+                                DATA_DIR / f"ura_district_D{d:02d}_EC.csv", skipped, accept_shrink)
+                for d in ALL_DISTRICTS)
         if rebuild:
             from fetch_ura_districts import build_cache_from_district_csvs
             out["ura_cache_projects"] = len(build_cache_from_district_csvs(None))
@@ -121,6 +141,12 @@ def refresh(transactions: bool = True, rentals: bool = True, force: bool = False
             _export_guarded(export.rentals_csv, store, d,
                             DATA_DIR / f"ura_rental_D{d:02d}.csv", skipped, accept_shrink)
             for d in ALL_DISTRICTS)
+        if ec:
+            ec_rent = partial(export.rentals_csv, property_types=EC_RENTAL_TYPES)
+            out["ec_rent_rows"] = sum(
+                _export_guarded(ec_rent, store, d,
+                                DATA_DIR / f"ura_rental_D{d:02d}_EC.csv", skipped, accept_shrink)
+                for d in ALL_DISTRICTS)
         if rebuild:
             for script in (["build_rental_cache.py"], ["bed_bands.py", "--build"]):
                 subprocess.run([sys.executable, str(BASE / script[0]), *script[1:]],
@@ -142,6 +168,8 @@ def main() -> int:
     ap.add_argument("--no-transactions", action="store_true")
     ap.add_argument("--accept-shrink", action="store_true",
                     help="write exports even if a district shrank >10%% (after checking)")
+    ap.add_argument("--no-ec", action="store_true",
+                    help="skip the Executive Condominium sale/rental exports")
     a = ap.parse_args()
     ok, why = available()
     if a.check or not ok:
@@ -149,7 +177,7 @@ def main() -> int:
         return 0 if ok else 1
     print(json.dumps(refresh(transactions=not a.no_transactions,
                              rentals=not a.no_rentals, force=a.force,
-                             accept_shrink=a.accept_shrink), indent=2))
+                             accept_shrink=a.accept_shrink, ec=not a.no_ec), indent=2))
     return 0
 
 

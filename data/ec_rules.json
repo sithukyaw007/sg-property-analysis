@@ -1,0 +1,35 @@
+{
+  "_comment": "Executive Condominium rules used by scoring/ec_rules.py. Policy, not calibration: kept out of config.py so a rule update never restamps score_version. Re-verify with HDB/MND before relying on it; update as_of when you do.",
+  "as_of": "2026-10-03",
+  "sources": [
+    "https://www.mnd.gov.sg/newsroom/press-releases/view/strengthening-the-executive-condominium-housing-scheme-and-supporting-first-time-home-buyers",
+    "https://www.hdb.gov.sg/residential/buying-a-flat/buying-procedure-for-executive-condominiums"
+  ],
+  "regimes": [
+    {
+      "name": "pre_may_2026",
+      "applies_to": "EC land tenders that closed before 8 May 2026",
+      "tender_closed_before": "2026-05-08",
+      "mop_years": 5,
+      "privatised_after_years": 10
+    },
+    {
+      "name": "may_2026",
+      "applies_to": "EC land tenders that closed on or after 8 May 2026 (no Deferred Payment Scheme, 90% first-timer quota for 2 years)",
+      "tender_closed_on_or_after": "2026-05-08",
+      "mop_years": 10,
+      "privatised_after_years": 15
+    }
+  ],
+  "eligible_household_citizenship": {
+    "new_or_within_mop": ["SC"],
+    "post_mop": ["SC", "PR"],
+    "privatised": ["SC", "PR", "Foreigner"]
+  },
+  "notes": {
+    "mop_clock": "MOP runs from key collection; TOP year is used as a proxy, so a unit in its MOP or privatisation year is flagged for exact-date verification.",
+    "lease_start": "URA tenure 'commencing from YYYY' is the land award year (the tender), not TOP.",
+    "new_ec_buyers": "Buying a NEW EC needs at least one Singapore Citizen applicant, a household income within the ceiling ($16,000; $18,000 for sites tendered from 24 Aug 2026), and no private property owned or disposed of in the last 30 months. MSR 30% applies to ECs bought from the developer.",
+    "resale_after_mop": "Between MOP and privatisation only Singapore Citizens and PRs may buy; no income ceiling. After privatisation it is a private condo for every purpose."
+  }
+}

@@ -86,7 +86,14 @@ def _build_table(txns=None, units=None) -> dict:
     across districts and a wrong-district join would hand one project
     another's exit record.
     """
-    txns = ext.load_with_floor() if txns is None else txns
+    # Condo panel + EC prints. Pairs, family share and volume are all keyed
+    # per (project, district), so EC prints only ever build EC projects' exit
+    # records — condo scores are unchanged. Caveat: the lens was validated on
+    # the condo panel only; for an EC its record is evidence, not a tested signal.
+    if txns is None:
+        import glob as _glob
+        txns = ext.load_with_floor(sorted(_glob.glob(bt.DATA_GLOB))
+                                   + sorted(_glob.glob(bt.EC_DATA_GLOB)))
     units = panel._load_units() if units is None else units
 
     pair_pl = defaultdict(lambda: [0, 0])

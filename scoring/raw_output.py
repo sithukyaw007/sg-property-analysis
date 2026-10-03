@@ -142,6 +142,11 @@ def _build_factual_data(listing: ScoredListing) -> dict:
     if rel_value:
         facts["relative_value"] = rel_value
 
+    # --- Executive Condominium lifecycle (scoring/ec_rules.py) ---
+    ec_status = listing.score_breakdown.get("ec_status")
+    if ec_status:
+        facts["ec_status"] = ec_status
+
     return facts
 
 

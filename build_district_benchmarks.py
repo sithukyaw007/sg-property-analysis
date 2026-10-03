@@ -67,7 +67,9 @@ def _open(p):
 
 def sale_psf_by_district(window_years=1.0):
     rows = []
-    for p in sorted(glob.glob(str(DATA_DIR / "ura_district_D*.csv"))):
+    # Condo/apartment files only — EC prints (_EC.csv) trade at their own
+    # level and must not drag the condo district benchmark down.
+    for p in sorted(glob.glob(str(DATA_DIR / "ura_district_D[0-9][0-9].csv"))):
         with _open(p) as fh:
             for r in csv.DictReader(fh):
                 t = _parse_month(r.get("Sale Date", ""))

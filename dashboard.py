@@ -158,11 +158,11 @@ def gather_stats() -> dict:
     s["n_cache_projects"] = len(cache)
     s["floor_basis"] = Counter(
         (p.get("floor_factors") or {}).get("basis") or "none" for p in cache.values())
-    s["n_districts_panel"] = len(glob.glob(os.path.join(DATA, "ura_district_D*.csv")))
+    s["n_districts_panel"] = len(glob.glob(os.path.join(DATA, "ura_district_D[0-9][0-9].csv")))
 
     # panel size (line counts are cheap enough)
     n_txn = 0
-    for p in glob.glob(os.path.join(DATA, "ura_district_D*.csv")):
+    for p in glob.glob(os.path.join(DATA, "ura_district_D[0-9][0-9].csv")):
         with open(p, "rb") as f:
             n_txn += max(0, sum(1 for _ in f) - 1)
     s["n_txns"] = n_txn

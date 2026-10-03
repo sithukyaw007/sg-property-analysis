@@ -85,6 +85,8 @@ class DistrictScorer:
         for key, entry in ura.items():
             if not isinstance(entry, dict) or entry.get("annualized_appreciation") is None:
                 continue
+            if entry.get("is_ec"):
+                continue  # district rates describe the condo market (EC prices move separately)
             d = str(entry.get("district") or "").upper().replace("D", "").lstrip("0") or proj_to_district.get(key)
             if d:
                 by_district.setdefault(d, []).append(entry["annualized_appreciation"])

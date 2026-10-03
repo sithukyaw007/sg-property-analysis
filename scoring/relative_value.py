@@ -136,6 +136,7 @@ def compute_relative_value(
     current_year: int,
     subject_sqft: Optional[float] = None,
     subject_name: Optional[str] = None,
+    subject_is_ec: bool = False,
 ) -> Optional[dict[str, Any]]:
     """Age-adjusted relative value of a subject unit vs its district peers.
 
@@ -172,6 +173,10 @@ def compute_relative_value(
     freehold_unadjusted = 0
     for entry in ura_data.values():
         if not isinstance(entry, dict) or entry.get("district") != district:
+            continue
+        # One product per comparison: an EC's peers are ECs, a condo's are
+        # condos. Cache entries without `is_ec` are condos.
+        if bool(entry.get("is_ec")) != bool(subject_is_ec):
             continue
         if target_name and _canon_name(entry.get("project_name")) == target_name:
             continue  # the subject is not its own peer (self-inclusion bias)
@@ -286,7 +291,8 @@ def compute_relative_value(
     return result
 
 
-def relative_value_for_listing(scored: Any, ura_data: dict, current_year: int) -> Optional[dict]:
+def relative_value_for_listing(scored: Any, ura_data: dict, current_year: int,
+                               subject_is_ec: bool = False) -> Optional[dict]:
     """Convenience wrapper taking a ScoredListing."""
     if not scored.psf or not scored.built_year or not scored.district:
         return None
@@ -300,4 +306,5 @@ def relative_value_for_listing(scored: Any, ura_data: dict, current_year: int) -
         current_year=current_year,
         subject_sqft=scored.sqft,
         subject_name=getattr(scored, "project_name", None) or getattr(scored, "title", None),
+        subject_is_ec=subject_is_ec,
     )

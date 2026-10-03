@@ -147,7 +147,7 @@ def render(rows: list[dict], mandate: str | None) -> str:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--since", default="2026-07-28")
-    ap.add_argument("--mandate", choices=["his", "hers"], default=None)
+    ap.add_argument("--mandate", choices=[m[0] for m in weekly.MANDATES], default=None)
     ap.add_argument("--json", action="store_true")
     args = ap.parse_args()
 

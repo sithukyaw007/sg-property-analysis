@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-10-03",
   "projects": {
     "parc esta": {
       "project_name": "PARC ESTA",
@@ -108949,6 +108949,4108 @@
         "mid": 1.0,
         "high": 1.0319
       }
+    },
+    "coastal cabana": {
+      "project_name": "COASTAL CABANA",
+      "district": "D17",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2024",
+      "lease_start_year": 2024,
+      "transaction_count": 631,
+      "avg_psf_current": 1795.0,
+      "median_psf": 1795.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": null,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 631,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "none",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1795.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1799.0,
+            "txn_count": 435
+          },
+          "1050-1400": {
+            "median_psf": 1787.0,
+            "txn_count": 184
+          },
+          "1400-1800": {
+            "median_psf": 1842.5,
+            "txn_count": 12
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 619,
+        "low": 0.9814,
+        "mid": 1.0,
+        "high": 1.0189
+      },
+      "is_ec": true
+    },
+    "aurelle of tampines": {
+      "project_name": "AURELLE OF TAMPINES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2024",
+      "lease_start_year": 2024,
+      "transaction_count": 757,
+      "avg_psf_current": 2052.0,
+      "median_psf": 2052.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 15.997738835500286,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 757,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "1yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1769.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1770.0,
+            "txn_count": 605
+          },
+          "1050-1400": {
+            "median_psf": 1758.5,
+            "txn_count": 152
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 757,
+        "low": 0.9751,
+        "mid": 1.0,
+        "high": 1.0255
+      },
+      "is_ec": true
+    },
+    "tenet": {
+      "project_name": "TENET",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2021",
+      "lease_start_year": 2021,
+      "transaction_count": 618,
+      "avg_psf_current": 1787.0,
+      "median_psf": 1787.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 17.79828609096903,
+      "appreciation_3yr": 28.422565576715762,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 618,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": 1.0,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1787.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1731.5,
+            "txn_count": 2
+          },
+          "800-1050": {
+            "median_psf": 1787.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "rivelle tampines": {
+      "project_name": "RIVELLE TAMPINES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2025",
+      "lease_start_year": 2025,
+      "transaction_count": 556,
+      "avg_psf_current": 1934.0,
+      "median_psf": 1934.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": null,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 556,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "none",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1934.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1934.0,
+            "txn_count": 375
+          },
+          "1050-1400": {
+            "median_psf": 1936.0,
+            "txn_count": 181
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 556,
+        "low": 0.9779,
+        "mid": 1.0,
+        "high": 1.0226
+      },
+      "is_ec": true
+    },
+    "the tampines trilliant": {
+      "project_name": "THE TAMPINES TRILLIANT",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 223,
+      "avg_psf_current": 1749.5,
+      "median_psf": 1749.5,
+      "avg_psf_5yr_ago": 1179.5,
+      "appreciation_1yr": 3.0633284241531555,
+      "appreciation_3yr": 23.81457891012031,
+      "appreciation_5yr": 48.32556167867741,
+      "annualized_appreciation": 8.203971247422782,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 223,
+      "resale_annualized_appreciation": 8.203971247422782,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1728.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1725.0,
+            "txn_count": 41
+          },
+          "800-1050": {
+            "median_psf": 1762.0,
+            "txn_count": 36
+          },
+          "1800+": {
+            "median_psf": 1415.0,
+            "txn_count": 9
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 77,
+        "low": 0.9323,
+        "mid": 1.0,
+        "high": 1.0727
+      },
+      "is_ec": true
+    },
+    "sea horizon": {
+      "project_name": "SEA HORIZON",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 163,
+      "avg_psf_current": 1308.0,
+      "median_psf": 1308.0,
+      "avg_psf_5yr_ago": 1022.0,
+      "appreciation_1yr": 3.974562798092207,
+      "appreciation_3yr": 12.371134020618557,
+      "appreciation_5yr": 27.98434442270059,
+      "annualized_appreciation": 5.058542062341265,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 163,
+      "resale_annualized_appreciation": 5.058542062341265,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.217,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1282.0,
+        "bands": {
+          "600-800": {
+            "median_psf": 1249.0,
+            "txn_count": 3
+          },
+          "1050-1400": {
+            "median_psf": 1269.5,
+            "txn_count": 36
+          },
+          "1400-1800": {
+            "median_psf": 1380.0,
+            "txn_count": 7
+          },
+          "800-1050": {
+            "median_psf": 1294.5,
+            "txn_count": 4
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 50,
+        "low": 0.9585,
+        "mid": 1.0,
+        "high": 1.0433
+      },
+      "is_ec": true
+    },
+    "citylife@tampines": {
+      "project_name": "CITYLIFE@TAMPINES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 160,
+      "avg_psf_current": 1673.0,
+      "median_psf": 1673.0,
+      "avg_psf_5yr_ago": 1160.5,
+      "appreciation_1yr": 5.021971123666047,
+      "appreciation_3yr": 28.741823778376308,
+      "appreciation_5yr": 44.161999138302455,
+      "annualized_appreciation": 7.589566890520616,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 160,
+      "resale_annualized_appreciation": 7.589566890520616,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.514,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1642.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1649.0,
+            "txn_count": 41
+          },
+          "600-800": {
+            "median_psf": 1710.5,
+            "txn_count": 2
+          },
+          "1800+": {
+            "median_psf": 948.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1426.0,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 49,
+        "low": 0.9231,
+        "mid": 1.0,
+        "high": 1.0833
+      },
+      "is_ec": true
+    },
+    "arc at tampines": {
+      "project_name": "ARC AT TAMPINES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 158,
+      "avg_psf_current": 1406.5,
+      "median_psf": 1406.5,
+      "avg_psf_5yr_ago": 994.0,
+      "appreciation_1yr": -0.10653409090909394,
+      "appreciation_3yr": 15.571076417419881,
+      "appreciation_5yr": 41.498993963782695,
+      "annualized_appreciation": 7.189111349204524,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 158,
+      "resale_annualized_appreciation": 7.189111349204524,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1407.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1406.0,
+            "txn_count": 22
+          },
+          "800-1050": {
+            "median_psf": 1413.0,
+            "txn_count": 19
+          },
+          "600-800": {
+            "median_psf": 1430.0,
+            "txn_count": 3
+          },
+          "1400-1800": {
+            "median_psf": 1384.0,
+            "txn_count": 5
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 46,
+        "low": 0.9677,
+        "mid": 1.0,
+        "high": 1.0334
+      },
+      "is_ec": true
+    },
+    "watercolours": {
+      "project_name": "WATERCOLOURS",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 142,
+      "avg_psf_current": 1219.0,
+      "median_psf": 1219.0,
+      "avg_psf_5yr_ago": 886.5,
+      "appreciation_1yr": -3.1001589825119247,
+      "appreciation_3yr": 3.7446808510638308,
+      "appreciation_5yr": 37.50705019740552,
+      "annualized_appreciation": 6.577368562997643,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 142,
+      "resale_annualized_appreciation": 6.577368562997643,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1244.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1253.0,
+            "txn_count": 25
+          },
+          "1050-1400": {
+            "median_psf": 1271.0,
+            "txn_count": 14
+          },
+          "1400-1800": {
+            "median_psf": 1062.0,
+            "txn_count": 5
+          },
+          "1800+": {
+            "median_psf": 1027.0,
+            "txn_count": 2
+          },
+          "600-800": {
+            "median_psf": 1247.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 44,
+        "low": 0.982,
+        "mid": 1.0,
+        "high": 1.0184
+      },
+      "is_ec": true
+    },
+    "whitewater": {
+      "project_name": "WHITEWATER",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2002",
+      "lease_start_year": 2002,
+      "transaction_count": 116,
+      "avg_psf_current": 1114.0,
+      "median_psf": 1114.0,
+      "avg_psf_5yr_ago": 866.5,
+      "appreciation_1yr": -0.31319910514541194,
+      "appreciation_3yr": 10.079051383399218,
+      "appreciation_5yr": 28.563185227928443,
+      "annualized_appreciation": 5.153401248022238,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 116,
+      "resale_annualized_appreciation": 5.153401248022238,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1115.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1115.5,
+            "txn_count": 36
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "simei green condominium": {
+      "project_name": "SIMEI GREEN CONDOMINIUM",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1996",
+      "lease_start_year": 1996,
+      "transaction_count": 94,
+      "avg_psf_current": 1098.0,
+      "median_psf": 1098.0,
+      "avg_psf_5yr_ago": 869.0,
+      "appreciation_1yr": 1.8080667593880495,
+      "appreciation_3yr": 11.585365853658548,
+      "appreciation_5yr": 26.35212888377445,
+      "annualized_appreciation": 4.789197087641051,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 94,
+      "resale_annualized_appreciation": 4.789197087641051,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.596,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1092.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1103.5,
+            "txn_count": 12
+          },
+          "1400-1800": {
+            "median_psf": 1029.0,
+            "txn_count": 5
+          },
+          "800-1050": {
+            "median_psf": 1093.0,
+            "txn_count": 10
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "belysa": {
+      "project_name": "BELYSA",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 90,
+      "avg_psf_current": 1424.0,
+      "median_psf": 1424.0,
+      "avg_psf_5yr_ago": 964.0,
+      "appreciation_1yr": 2.152080344332852,
+      "appreciation_3yr": 17.588769611890996,
+      "appreciation_5yr": 47.71784232365146,
+      "annualized_appreciation": 8.115158932897671,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 90,
+      "resale_annualized_appreciation": 8.115158932897671,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1401.5,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1404.0,
+            "txn_count": 13
+          },
+          "1050-1400": {
+            "median_psf": 1394.0,
+            "txn_count": 22
+          },
+          "1400-1800": {
+            "median_psf": 1362.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "the eden at tampines": {
+      "project_name": "THE EDEN AT TAMPINES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2000",
+      "lease_start_year": 2000,
+      "transaction_count": 79,
+      "avg_psf_current": 1235.5,
+      "median_psf": 1235.5,
+      "avg_psf_5yr_ago": 837.0,
+      "appreciation_1yr": 1.9389438943894444,
+      "appreciation_3yr": 15.359477124182996,
+      "appreciation_5yr": 47.61051373954599,
+      "annualized_appreciation": 8.099443538388119,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 79,
+      "resale_annualized_appreciation": 8.099443538388119,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1212.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1214.5,
+            "txn_count": 20
+          },
+          "800-1050": {
+            "median_psf": 1215.0,
+            "txn_count": 4
+          },
+          "1400-1800": {
+            "median_psf": 1171.5,
+            "txn_count": 2
+          },
+          "1800+": {
+            "median_psf": 1043.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "pinevale": {
+      "project_name": "PINEVALE",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 48,
+      "avg_psf_current": 1231.0,
+      "median_psf": 1231.0,
+      "avg_psf_5yr_ago": 769.5,
+      "appreciation_1yr": 12.5743026977595,
+      "appreciation_3yr": 29.44269190325972,
+      "appreciation_5yr": 59.97400909681612,
+      "annualized_appreciation": 9.852485026090285,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 48,
+      "resale_annualized_appreciation": 9.852485026090285,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.544,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1116.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1116.0,
+            "txn_count": 11
+          },
+          "1400-1800": {
+            "median_psf": 1072.5,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "parc central residences": {
+      "project_name": "PARC CENTRAL RESIDENCES",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2019",
+      "lease_start_year": 2019,
+      "transaction_count": 44,
+      "avg_psf_current": 1560.0,
+      "median_psf": 1560.0,
+      "avg_psf_5yr_ago": 1225.5,
+      "appreciation_1yr": null,
+      "appreciation_3yr": 29.246064623032318,
+      "appreciation_5yr": 27.294981640146876,
+      "annualized_appreciation": 8.376992309807353,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 44,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": 0.274,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1237.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1546.0,
+            "txn_count": 9
+          },
+          "1050-1400": {
+            "median_psf": 1217.5,
+            "txn_count": 32
+          },
+          "1400-1800": {
+            "median_psf": 1259.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 44,
+        "low": 0.9404,
+        "mid": 1.0,
+        "high": 1.0633
+      },
+      "is_ec": true
+    },
+    "the esparis": {
+      "project_name": "THE ESPARIS",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2002",
+      "lease_start_year": 2002,
+      "transaction_count": 42,
+      "avg_psf_current": 1129.0,
+      "median_psf": 1129.0,
+      "avg_psf_5yr_ago": 755.0,
+      "appreciation_1yr": 2.823315118397085,
+      "appreciation_3yr": 12.226640159045733,
+      "appreciation_5yr": 49.53642384105961,
+      "annualized_appreciation": 8.380062733640736,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 42,
+      "resale_annualized_appreciation": 8.380062733640736,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1106.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1107.0,
+            "txn_count": 19
+          },
+          "1800+": {
+            "median_psf": 970.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "eastvale": {
+      "project_name": "EASTVALE",
+      "district": "D18",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1996",
+      "lease_start_year": 1996,
+      "transaction_count": 33,
+      "avg_psf_current": 1071.0,
+      "median_psf": 1071.0,
+      "avg_psf_5yr_ago": 788.0,
+      "appreciation_1yr": 2.4390243902439046,
+      "appreciation_3yr": 7.153576788394189,
+      "appreciation_5yr": 35.913705583756354,
+      "annualized_appreciation": 6.329225542212091,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 33,
+      "resale_annualized_appreciation": 6.329225542212091,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.778,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1062.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1066.5,
+            "txn_count": 12
+          },
+          "1400-1800": {
+            "median_psf": 1019.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1793,
+        "low": 0.9712,
+        "mid": 1.0,
+        "high": 1.0296
+      },
+      "is_ec": true
+    },
+    "bellewaters": {
+      "project_name": "BELLEWATERS",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 331,
+      "avg_psf_current": 1563.0,
+      "median_psf": 1563.0,
+      "avg_psf_5yr_ago": 1047.0,
+      "appreciation_1yr": 5.643798580601556,
+      "appreciation_3yr": 18.995051389417593,
+      "appreciation_5yr": 49.283667621776495,
+      "annualized_appreciation": 8.34339972662903,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 331,
+      "resale_annualized_appreciation": 8.34339972662903,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.54,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1514.5,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1529.0,
+            "txn_count": 15
+          },
+          "1050-1400": {
+            "median_psf": 1525.0,
+            "txn_count": 55
+          },
+          "1400-1800": {
+            "median_psf": 1421.5,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 78,
+        "low": 0.9934,
+        "mid": 1.0,
+        "high": 1.0067
+      },
+      "is_ec": true
+    },
+    "the terrace": {
+      "project_name": "THE TERRACE",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 304,
+      "avg_psf_current": 1566.0,
+      "median_psf": 1566.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 5.383580080753703,
+      "appreciation_3yr": 20.833333333333325,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 304,
+      "resale_annualized_appreciation": 6.7041242688459235,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.312,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1515.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1514.0,
+            "txn_count": 52
+          },
+          "800-1050": {
+            "median_psf": 1506.0,
+            "txn_count": 13
+          },
+          "1400-1800": {
+            "median_psf": 1627.5,
+            "txn_count": 4
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 65,
+        "low": 0.9701,
+        "mid": 1.0,
+        "high": 1.0308
+      },
+      "is_ec": true
+    },
+    "the vales": {
+      "project_name": "THE VALES",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 262,
+      "avg_psf_current": 1636.0,
+      "median_psf": 1636.0,
+      "avg_psf_5yr_ago": 1040.0,
+      "appreciation_1yr": 2.506265664160412,
+      "appreciation_3yr": 19.80959355547418,
+      "appreciation_5yr": 57.30769230769231,
+      "annualized_appreciation": 9.483832613853927,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 262,
+      "resale_annualized_appreciation": 9.483832613853927,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1600.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1604.5,
+            "txn_count": 40
+          },
+          "1400-1800": {
+            "median_psf": 1557.0,
+            "txn_count": 5
+          },
+          "600-800": {
+            "median_psf": 1609.0,
+            "txn_count": 17
+          },
+          "1050-1400": {
+            "median_psf": 1600.0,
+            "txn_count": 5
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 67,
+        "low": 0.9619,
+        "mid": 1.0,
+        "high": 1.0396
+      },
+      "is_ec": true
+    },
+    "prive": {
+      "project_name": "PRIVE",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2010",
+      "lease_start_year": 2010,
+      "transaction_count": 208,
+      "avg_psf_current": 1598.0,
+      "median_psf": 1598.0,
+      "avg_psf_5yr_ago": 1112.5,
+      "appreciation_1yr": 2.8976175144880933,
+      "appreciation_3yr": 23.875968992248065,
+      "appreciation_5yr": 43.640449438202246,
+      "annualized_appreciation": 7.5116064208438305,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 208,
+      "resale_annualized_appreciation": 7.5116064208438305,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.923,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1566.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1581.0,
+            "txn_count": 45
+          },
+          "1400-1800": {
+            "median_psf": 1376.0,
+            "txn_count": 4
+          },
+          "800-1050": {
+            "median_psf": 1545.5,
+            "txn_count": 18
+          },
+          "600-800": {
+            "median_psf": 1536.0,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 69,
+        "low": 0.9231,
+        "mid": 1.0,
+        "high": 1.0833
+      },
+      "is_ec": true
+    },
+    "ecopolitan": {
+      "project_name": "ECOPOLITAN",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 196,
+      "avg_psf_current": 1470.5,
+      "median_psf": 1470.5,
+      "avg_psf_5yr_ago": 1093.0,
+      "appreciation_1yr": 6.173285198555956,
+      "appreciation_3yr": 18.207395498392277,
+      "appreciation_5yr": 34.53796889295517,
+      "annualized_appreciation": 6.113092946369791,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 196,
+      "resale_annualized_appreciation": 6.113092946369791,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.012,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1411.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1416.0,
+            "txn_count": 32
+          },
+          "800-1050": {
+            "median_psf": 1428.5,
+            "txn_count": 2
+          },
+          "1400-1800": {
+            "median_psf": 1400.0,
+            "txn_count": 5
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "treasure crest": {
+      "project_name": "TREASURE CREST",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2015",
+      "lease_start_year": 2015,
+      "transaction_count": 192,
+      "avg_psf_current": 1618.0,
+      "median_psf": 1618.0,
+      "avg_psf_5yr_ago": 1076.0,
+      "appreciation_1yr": 4.62334303265437,
+      "appreciation_3yr": 16.068866571018646,
+      "appreciation_5yr": 50.3717472118959,
+      "annualized_appreciation": 8.500877159526299,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 192,
+      "resale_annualized_appreciation": 8.500877159526299,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.776,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1552.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1549.0,
+            "txn_count": 10
+          },
+          "1050-1400": {
+            "median_psf": 1561.0,
+            "txn_count": 37
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 47,
+        "low": 0.9435,
+        "mid": 1.0,
+        "high": 1.0599
+      },
+      "is_ec": true
+    },
+    "austville residences": {
+      "project_name": "AUSTVILLE RESIDENCES",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2010",
+      "lease_start_year": 2010,
+      "transaction_count": 186,
+      "avg_psf_current": 1386.5,
+      "median_psf": 1386.5,
+      "avg_psf_5yr_ago": 993.0,
+      "appreciation_1yr": 3.779940119760483,
+      "appreciation_3yr": 12.085691188358938,
+      "appreciation_5yr": 39.627391742195364,
+      "annualized_appreciation": 6.904041768626468,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 186,
+      "resale_annualized_appreciation": 6.904041768626468,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.625,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1350.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1363.0,
+            "txn_count": 45
+          },
+          "1050-1400": {
+            "median_psf": 1369.0,
+            "txn_count": 17
+          },
+          "1400-1800": {
+            "median_psf": 1301.5,
+            "txn_count": 4
+          },
+          "600-800": {
+            "median_psf": 1324.0,
+            "txn_count": 11
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 77,
+        "low": 0.9923,
+        "mid": 1.0,
+        "high": 1.0077
+      },
+      "is_ec": true
+    },
+    "twin waterfalls": {
+      "project_name": "TWIN WATERFALLS",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 182,
+      "avg_psf_current": 1587.0,
+      "median_psf": 1587.0,
+      "avg_psf_5yr_ago": 1079.0,
+      "appreciation_1yr": 2.7184466019417375,
+      "appreciation_3yr": 22.26502311248073,
+      "appreciation_5yr": 47.08063021316033,
+      "annualized_appreciation": 8.021722055280023,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 182,
+      "resale_annualized_appreciation": 8.021722055280023,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1556.5,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1198.5,
+            "txn_count": 6
+          },
+          "1050-1400": {
+            "median_psf": 1554.0,
+            "txn_count": 41
+          },
+          "800-1050": {
+            "median_psf": 1593.0,
+            "txn_count": 17
+          },
+          "1800+": {
+            "median_psf": 1060.0,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 64,
+        "low": 0.9931,
+        "mid": 1.0,
+        "high": 1.007
+      },
+      "is_ec": true
+    },
+    "esparina residences": {
+      "project_name": "ESPARINA RESIDENCES",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2010",
+      "lease_start_year": 2010,
+      "transaction_count": 180,
+      "avg_psf_current": 1764.0,
+      "median_psf": 1764.0,
+      "avg_psf_5yr_ago": 1174.0,
+      "appreciation_1yr": 4.070796460176984,
+      "appreciation_3yr": 15.824031516743275,
+      "appreciation_5yr": 50.25553662691653,
+      "annualized_appreciation": 8.484101601301997,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 180,
+      "resale_annualized_appreciation": 8.484101601301997,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.883,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1707.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1689.0,
+            "txn_count": 39
+          },
+          "1050-1400": {
+            "median_psf": 1764.0,
+            "txn_count": 23
+          },
+          "1400-1800": {
+            "median_psf": 1270.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 65,
+        "low": 0.9725,
+        "mid": 1.0,
+        "high": 1.0283
+      },
+      "is_ec": true
+    },
+    "the amore": {
+      "project_name": "THE AMORE",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 180,
+      "avg_psf_current": 1506.0,
+      "median_psf": 1506.0,
+      "avg_psf_5yr_ago": 1070.0,
+      "appreciation_1yr": 4.005524861878462,
+      "appreciation_3yr": 20.287539936102238,
+      "appreciation_5yr": 40.74766355140187,
+      "annualized_appreciation": 7.075038404322398,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 180,
+      "resale_annualized_appreciation": 7.075038404322398,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.614,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1476.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1474.0,
+            "txn_count": 21
+          },
+          "800-1050": {
+            "median_psf": 1483.5,
+            "txn_count": 18
+          },
+          "1400-1800": {
+            "median_psf": 1482.0,
+            "txn_count": 6
+          },
+          "600-800": {
+            "median_psf": 1479.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 48,
+        "low": 0.9548,
+        "mid": 1.0,
+        "high": 1.0473
+      },
+      "is_ec": true
+    },
+    "heron bay": {
+      "project_name": "HERON BAY",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 155,
+      "avg_psf_current": 1413.0,
+      "median_psf": 1413.0,
+      "avg_psf_5yr_ago": 935.0,
+      "appreciation_1yr": 3.3650329188003036,
+      "appreciation_3yr": 12.321144674085849,
+      "appreciation_5yr": 51.12299465240642,
+      "annualized_appreciation": 8.609073818632007,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 155,
+      "resale_annualized_appreciation": 8.609073818632007,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1369.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1353.5,
+            "txn_count": 18
+          },
+          "1050-1400": {
+            "median_psf": 1373.0,
+            "txn_count": 19
+          },
+          "1400-1800": {
+            "median_psf": 1525.0,
+            "txn_count": 4
+          },
+          "600-800": {
+            "median_psf": 1484.0,
+            "txn_count": 1
+          },
+          "1800+": {
+            "median_psf": 1154.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 41,
+        "low": 0.9586,
+        "mid": 1.0,
+        "high": 1.0432
+      },
+      "is_ec": true
+    },
+    "hundred palms residences": {
+      "project_name": "HUNDRED PALMS RESIDENCES",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2016",
+      "lease_start_year": 2016,
+      "transaction_count": 137,
+      "avg_psf_current": 2005.0,
+      "median_psf": 2005.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 9.562841530054644,
+      "appreciation_3yr": 22.968414596749454,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 137,
+      "resale_annualized_appreciation": 9.007532274177454,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.381,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1847.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1841.5,
+            "txn_count": 78
+          },
+          "1050-1400": {
+            "median_psf": 1852.5,
+            "txn_count": 50
+          },
+          "1400-1800": {
+            "median_psf": 1806.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 131,
+        "low": 0.9383,
+        "mid": 1.0,
+        "high": 1.0658
+      },
+      "is_ec": true
+    },
+    "riverparc residence": {
+      "project_name": "RIVERPARC RESIDENCE",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2010",
+      "lease_start_year": 2010,
+      "transaction_count": 137,
+      "avg_psf_current": 1446.5,
+      "median_psf": 1446.5,
+      "avg_psf_5yr_ago": 958.0,
+      "appreciation_1yr": 0.3468609087755814,
+      "appreciation_3yr": 12.04492641363284,
+      "appreciation_5yr": 50.991649269311054,
+      "annualized_appreciation": 8.590188191883197,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 137,
+      "resale_annualized_appreciation": 8.590188191883197,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1445.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1454.0,
+            "txn_count": 25
+          },
+          "1800+": {
+            "median_psf": 1039.0,
+            "txn_count": 1
+          },
+          "800-1050": {
+            "median_psf": 1429.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1407.0,
+            "txn_count": 5
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "rivercove residences": {
+      "project_name": "RIVERCOVE RESIDENCES",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2016",
+      "lease_start_year": 2016,
+      "transaction_count": 134,
+      "avg_psf_current": 1644.0,
+      "median_psf": 1644.0,
+      "avg_psf_5yr_ago": 1192.5,
+      "appreciation_1yr": 1.606922126081578,
+      "appreciation_3yr": 34.09461663947797,
+      "appreciation_5yr": 37.86163522012578,
+      "annualized_appreciation": 6.632277484240134,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 2,
+      "new_sale_proportion": 0.015,
+      "resale_transaction_count": 132,
+      "resale_annualized_appreciation": 8.437623139336292,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1634.5,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1626.0,
+            "txn_count": 65
+          },
+          "1050-1400": {
+            "median_psf": 1642.0,
+            "txn_count": 62
+          },
+          "1400-1800": {
+            "median_psf": 1710.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 127,
+        "low": 0.974,
+        "mid": 1.0,
+        "high": 1.0267
+      },
+      "is_ec": true
+    },
+    "waterbay": {
+      "project_name": "WATERBAY",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 132,
+      "avg_psf_current": 1506.0,
+      "median_psf": 1506.0,
+      "avg_psf_5yr_ago": 1066.0,
+      "appreciation_1yr": 3.6476256022023312,
+      "appreciation_3yr": 20.095693779904302,
+      "appreciation_5yr": 41.27579737335836,
+      "annualized_appreciation": 7.1552745666366935,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 132,
+      "resale_annualized_appreciation": 7.1552745666366935,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.702,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1476.0,
+        "bands": {
+          "600-800": {
+            "median_psf": 1469.5,
+            "txn_count": 2
+          },
+          "1050-1400": {
+            "median_psf": 1484.5,
+            "txn_count": 32
+          },
+          "1400-1800": {
+            "median_psf": 1501.0,
+            "txn_count": 2
+          },
+          "1800+": {
+            "median_psf": 1137.0,
+            "txn_count": 2
+          },
+          "800-1050": {
+            "median_psf": 1394.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "waterwoods": {
+      "project_name": "WATERWOODS",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 110,
+      "avg_psf_current": 1499.0,
+      "median_psf": 1499.0,
+      "avg_psf_5yr_ago": 1053.0,
+      "appreciation_1yr": 2.8826355525051417,
+      "appreciation_3yr": 18.498023715415023,
+      "appreciation_5yr": 42.355175688509014,
+      "annualized_appreciation": 7.318514446531621,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 110,
+      "resale_annualized_appreciation": 7.318514446531621,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.887,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1498.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1499.5,
+            "txn_count": 12
+          },
+          "1050-1400": {
+            "median_psf": 1479.0,
+            "txn_count": 15
+          },
+          "1400-1800": {
+            "median_psf": 1501.0,
+            "txn_count": 4
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "the florida": {
+      "project_name": "THE FLORIDA",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 92,
+      "avg_psf_current": 1139.5,
+      "median_psf": 1139.5,
+      "avg_psf_5yr_ago": 797.5,
+      "appreciation_1yr": 5.901486988847582,
+      "appreciation_3yr": 11.825318940137386,
+      "appreciation_5yr": 42.884012539184944,
+      "annualized_appreciation": 7.398131977831257,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 92,
+      "resale_annualized_appreciation": 7.398131977831257,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.299,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1092.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1098.5,
+            "txn_count": 30
+          },
+          "1400-1800": {
+            "median_psf": 1085.0,
+            "txn_count": 4
+          },
+          "1800+": {
+            "median_psf": 1045.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "the rivervale": {
+      "project_name": "THE RIVERVALE",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 91,
+      "avg_psf_current": 1151.0,
+      "median_psf": 1151.0,
+      "avg_psf_5yr_ago": 795.5,
+      "appreciation_1yr": 2.2202486678507993,
+      "appreciation_3yr": 12.953876349362115,
+      "appreciation_5yr": 44.688874921433055,
+      "annualized_appreciation": 7.668094726143915,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 91,
+      "resale_annualized_appreciation": 7.668094726143915,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1141.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1142.0,
+            "txn_count": 30
+          },
+          "1800+": {
+            "median_psf": 855.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "ola": {
+      "project_name": "OLA",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2018",
+      "lease_start_year": 2018,
+      "transaction_count": 81,
+      "avg_psf_current": 1690.0,
+      "median_psf": 1690.0,
+      "avg_psf_5yr_ago": 1204.5,
+      "appreciation_1yr": -1.8583042973286834,
+      "appreciation_3yr": 38.0718954248366,
+      "appreciation_5yr": 40.30718140307181,
+      "annualized_appreciation": 7.007934204904598,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 77,
+      "new_sale_proportion": 0.951,
+      "resale_transaction_count": 4,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1214.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1219.0,
+            "txn_count": 49
+          },
+          "800-1050": {
+            "median_psf": 1174.0,
+            "txn_count": 19
+          },
+          "600-800": {
+            "median_psf": 1214.0,
+            "txn_count": 13
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 81,
+        "low": 0.9231,
+        "mid": 1.0,
+        "high": 1.0833
+      },
+      "is_ec": true
+    },
+    "park green": {
+      "project_name": "PARK GREEN",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2001",
+      "lease_start_year": 2001,
+      "transaction_count": 56,
+      "avg_psf_current": 1148.0,
+      "median_psf": 1148.0,
+      "avg_psf_5yr_ago": 878.0,
+      "appreciation_1yr": -0.7349762213575417,
+      "appreciation_3yr": 16.725978647686834,
+      "appreciation_5yr": 30.751708428246015,
+      "annualized_appreciation": 5.508992118742029,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 56,
+      "resale_annualized_appreciation": 5.508992118742029,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1148.0,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1132.0,
+            "txn_count": 4
+          },
+          "1050-1400": {
+            "median_psf": 1167.0,
+            "txn_count": 12
+          },
+          "1800+": {
+            "median_psf": 1145.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "piermont grand": {
+      "project_name": "PIERMONT GRAND",
+      "district": "D19",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2018",
+      "lease_start_year": 2018,
+      "transaction_count": 17,
+      "avg_psf_current": 1548.0,
+      "median_psf": 1548.0,
+      "avg_psf_5yr_ago": 1166.5,
+      "appreciation_1yr": null,
+      "appreciation_3yr": 14.581791265729095,
+      "appreciation_5yr": 32.70467209601371,
+      "annualized_appreciation": 9.890986240654186,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 16,
+      "new_sale_proportion": 0.941,
+      "resale_transaction_count": 1,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1233.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1344.0,
+            "txn_count": 3
+          },
+          "1050-1400": {
+            "median_psf": 1300.0,
+            "txn_count": 6
+          },
+          "1400-1800": {
+            "median_psf": 1156.5,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 1192,
+        "low": 0.9642,
+        "mid": 1.0,
+        "high": 1.0372
+      },
+      "is_ec": true
+    },
+    "nuovo": {
+      "project_name": "NUOVO",
+      "district": "D20",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2001",
+      "lease_start_year": 2001,
+      "transaction_count": 44,
+      "avg_psf_current": 1334.0,
+      "median_psf": 1334.0,
+      "avg_psf_5yr_ago": 1056.0,
+      "appreciation_1yr": -1.111934766493694,
+      "appreciation_3yr": 21.272727272727266,
+      "appreciation_5yr": 26.32575757575757,
+      "annualized_appreciation": 4.784822552836299,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 44,
+      "resale_annualized_appreciation": 4.784822552836299,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1341.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1372.0,
+            "txn_count": 8
+          },
+          "1400-1800": {
+            "median_psf": 1332.0,
+            "txn_count": 4
+          },
+          "1800+": {
+            "median_psf": 1158.5,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 24
+      },
+      "is_ec": true
+    },
+    "bishan loft": {
+      "project_name": "BISHAN LOFT",
+      "district": "D20",
+      "market_segment": "Rest of Central Region",
+      "tenure": "99 yrs lease commencing from 2000",
+      "lease_start_year": 2000,
+      "transaction_count": 42,
+      "avg_psf_current": 1781.0,
+      "median_psf": 1781.0,
+      "avg_psf_5yr_ago": 1308.0,
+      "appreciation_1yr": 5.415803492157445,
+      "appreciation_3yr": 19.610476830087297,
+      "appreciation_5yr": 36.16207951070336,
+      "annualized_appreciation": 6.3680591884546,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 42,
+      "resale_annualized_appreciation": 6.3680591884546,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.19,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1734.0,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1744.5,
+            "txn_count": 4
+          },
+          "1050-1400": {
+            "median_psf": 1741.5,
+            "txn_count": 12
+          },
+          "1800+": {
+            "median_psf": 1455.5,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 24
+      },
+      "is_ec": true
+    },
+    "westwood residences": {
+      "project_name": "WESTWOOD RESIDENCES",
+      "district": "D22",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 178,
+      "avg_psf_current": 1417.5,
+      "median_psf": 1417.5,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 5.7046979865771785,
+      "appreciation_3yr": 14.591754244139054,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 178,
+      "resale_annualized_appreciation": 5.900933382490092,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.168,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1372.5,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1367.5,
+            "txn_count": 30
+          },
+          "1050-1400": {
+            "median_psf": 1373.0,
+            "txn_count": 25
+          },
+          "600-800": {
+            "median_psf": 1502.5,
+            "txn_count": 4
+          },
+          "1400-1800": {
+            "median_psf": 1312.0,
+            "txn_count": 7
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 66,
+        "low": 0.9765,
+        "mid": 1.0,
+        "high": 1.0241
+      },
+      "is_ec": true
+    },
+    "lake life": {
+      "project_name": "LAKE LIFE",
+      "district": "D22",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 164,
+      "avg_psf_current": 1486.0,
+      "median_psf": 1486.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 2.6952315134761484,
+      "appreciation_3yr": 11.227544910179631,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 164,
+      "resale_annualized_appreciation": 6.284474384916261,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.209,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1466.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1444.5,
+            "txn_count": 8
+          },
+          "1050-1400": {
+            "median_psf": 1469.0,
+            "txn_count": 27
+          },
+          "1400-1800": {
+            "median_psf": 1188.0,
+            "txn_count": 2
+          },
+          "600-800": {
+            "median_psf": 1567.5,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 179,
+        "low": 0.97,
+        "mid": 1.0,
+        "high": 1.0309
+      },
+      "is_ec": true
+    },
+    "the floravale": {
+      "project_name": "THE FLORAVALE",
+      "district": "D22",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 129,
+      "avg_psf_current": 1123.0,
+      "median_psf": 1123.0,
+      "avg_psf_5yr_ago": 763.0,
+      "appreciation_1yr": 1.7210144927536142,
+      "appreciation_3yr": 20.88266953713671,
+      "appreciation_5yr": 47.18217562254259,
+      "annualized_appreciation": 8.036633715597375,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 129,
+      "resale_annualized_appreciation": 8.036633715597375,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1112.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1116.5,
+            "txn_count": 36
+          },
+          "1800+": {
+            "median_psf": 899.0,
+            "txn_count": 1
+          },
+          "1400-1800": {
+            "median_psf": 1075.0,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 179,
+        "low": 0.97,
+        "mid": 1.0,
+        "high": 1.0309
+      },
+      "is_ec": true
+    },
+    "summerdale": {
+      "project_name": "SUMMERDALE",
+      "district": "D22",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 63,
+      "avg_psf_current": 1004.0,
+      "median_psf": 1004.0,
+      "avg_psf_5yr_ago": 623.0,
+      "appreciation_1yr": 1.8255578093306246,
+      "appreciation_3yr": 4.257528556593981,
+      "appreciation_5yr": 61.15569823434992,
+      "annualized_appreciation": 10.014298342941208,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 63,
+      "resale_annualized_appreciation": 10.014298342941208,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 986.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 998.0,
+            "txn_count": 24
+          },
+          "1800+": {
+            "median_psf": 929.0,
+            "txn_count": 3
+          },
+          "1400-1800": {
+            "median_psf": 838.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 179,
+        "low": 0.97,
+        "mid": 1.0,
+        "high": 1.0309
+      },
+      "is_ec": true
+    },
+    "westmere": {
+      "project_name": "WESTMERE",
+      "district": "D22",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1996",
+      "lease_start_year": 1996,
+      "transaction_count": 35,
+      "avg_psf_current": 1153.0,
+      "median_psf": 1153.0,
+      "avg_psf_5yr_ago": 911.0,
+      "appreciation_1yr": -2.700421940928266,
+      "appreciation_3yr": 11.186113789778208,
+      "appreciation_5yr": 26.564215148188808,
+      "annualized_appreciation": 4.824351924908998,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 35,
+      "resale_annualized_appreciation": 4.824351924908998,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1185.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1185.0,
+            "txn_count": 13
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 179,
+        "low": 0.97,
+        "mid": 1.0,
+        "high": 1.0309
+      },
+      "is_ec": true
+    },
+    "sol acres": {
+      "project_name": "SOL ACRES",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 572,
+      "avg_psf_current": 1537.0,
+      "median_psf": 1537.0,
+      "avg_psf_5yr_ago": 1087.0,
+      "appreciation_1yr": 3.016085790884726,
+      "appreciation_3yr": 12.683284457478017,
+      "appreciation_5yr": 41.39834406623735,
+      "annualized_appreciation": 7.173858033687264,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 572,
+      "resale_annualized_appreciation": 7.173858033687264,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.832,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1510.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1485.0,
+            "txn_count": 47
+          },
+          "600-800": {
+            "median_psf": 1529.0,
+            "txn_count": 27
+          },
+          "1050-1400": {
+            "median_psf": 1508.0,
+            "txn_count": 31
+          },
+          "0-600": {
+            "median_psf": 1569.0,
+            "txn_count": 27
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 132,
+        "low": 0.961,
+        "mid": 1.0,
+        "high": 1.0406
+      },
+      "is_ec": true
+    },
+    "lumina grand": {
+      "project_name": "LUMINA GRAND",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2022",
+      "lease_start_year": 2022,
+      "transaction_count": 512,
+      "avg_psf_current": 1645.5,
+      "median_psf": 1645.5,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 8.937437934458782,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 512,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "1yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1511.5,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1525.0,
+            "txn_count": 42
+          },
+          "1050-1400": {
+            "median_psf": 1521.5,
+            "txn_count": 6
+          },
+          "1400-1800": {
+            "median_psf": 1498.5,
+            "txn_count": 26
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 74,
+        "low": 0.9809,
+        "mid": 1.0,
+        "high": 1.0194
+      },
+      "is_ec": true
+    },
+    "altura": {
+      "project_name": "ALTURA",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2022",
+      "lease_start_year": 2022,
+      "transaction_count": 360,
+      "avg_psf_current": 1628.5,
+      "median_psf": 1628.5,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 9.221998658618368,
+      "appreciation_3yr": 10.18267929634642,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 360,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": 1.0,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1495.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1628.5,
+            "txn_count": 4
+          },
+          "1400-1800": {
+            "median_psf": 1491.0,
+            "txn_count": 11
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "inz residence": {
+      "project_name": "INZ RESIDENCE",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2015",
+      "lease_start_year": 2015,
+      "transaction_count": 154,
+      "avg_psf_current": 1478.0,
+      "median_psf": 1478.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 3.176265270506118,
+      "appreciation_3yr": 25.042301184433157,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 154,
+      "resale_annualized_appreciation": 7.733884483030584,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1450.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1448.0,
+            "txn_count": 41
+          },
+          "1400-1800": {
+            "median_psf": 1376.0,
+            "txn_count": 6
+          },
+          "1050-1400": {
+            "median_psf": 1478.0,
+            "txn_count": 27
+          },
+          "600-800": {
+            "median_psf": 1405.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 77,
+        "low": 0.981,
+        "mid": 1.0,
+        "high": 1.0193
+      },
+      "is_ec": true
+    },
+    "blossom residences": {
+      "project_name": "BLOSSOM RESIDENCES",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 148,
+      "avg_psf_current": 1280.0,
+      "median_psf": 1280.0,
+      "avg_psf_5yr_ago": 993.0,
+      "appreciation_1yr": 1.4263074484944571,
+      "appreciation_3yr": 6.6222407330279065,
+      "appreciation_5yr": 28.902316213494462,
+      "annualized_appreciation": 5.208818681565086,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 148,
+      "resale_annualized_appreciation": 5.208818681565086,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.757,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1265.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1261.0,
+            "txn_count": 36
+          },
+          "800-1050": {
+            "median_psf": 1281.0,
+            "txn_count": 11
+          },
+          "600-800": {
+            "median_psf": 1301.0,
+            "txn_count": 3
+          },
+          "1400-1800": {
+            "median_psf": 1262.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 53,
+        "low": 0.9715,
+        "mid": 1.0,
+        "high": 1.0293
+      },
+      "is_ec": true
+    },
+    "wandervale": {
+      "project_name": "WANDERVALE",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 133,
+      "avg_psf_current": 1612.0,
+      "median_psf": 1612.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 5.566470203012441,
+      "appreciation_3yr": 20.74906367041198,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 133,
+      "resale_annualized_appreciation": 9.65351114979487,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.27,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1542.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1555.0,
+            "txn_count": 13
+          },
+          "1050-1400": {
+            "median_psf": 1530.0,
+            "txn_count": 25
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "the rainforest": {
+      "project_name": "THE RAINFOREST",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2011",
+      "lease_start_year": 2011,
+      "transaction_count": 102,
+      "avg_psf_current": 1567.0,
+      "median_psf": 1567.0,
+      "avg_psf_5yr_ago": 1149.5,
+      "appreciation_1yr": 8.293020041465105,
+      "appreciation_3yr": 18.13041839427063,
+      "appreciation_5yr": 36.32013919095258,
+      "annualized_appreciation": 6.392742566383758,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 102,
+      "resale_annualized_appreciation": 6.392742566383758,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.38,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1467.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1567.0,
+            "txn_count": 14
+          },
+          "800-1050": {
+            "median_psf": 1446.5,
+            "txn_count": 18
+          },
+          "1400-1800": {
+            "median_psf": 1374.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "yew mei green": {
+      "project_name": "YEW MEI GREEN",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 99,
+      "avg_psf_current": 1053.0,
+      "median_psf": 1053.0,
+      "avg_psf_5yr_ago": 772.0,
+      "appreciation_1yr": -2.1375464684014855,
+      "appreciation_3yr": 13.83783783783783,
+      "appreciation_5yr": 36.398963730569946,
+      "annualized_appreciation": 6.405043639391095,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 99,
+      "resale_annualized_appreciation": 6.405043639391095,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1062.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1053.0,
+            "txn_count": 20
+          },
+          "1400-1800": {
+            "median_psf": 1069.0,
+            "txn_count": 9
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "the quintet": {
+      "project_name": "THE QUINTET",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2003",
+      "lease_start_year": 2003,
+      "transaction_count": 71,
+      "avg_psf_current": 1102.0,
+      "median_psf": 1102.0,
+      "avg_psf_5yr_ago": 846.5,
+      "appreciation_1yr": 1.8484288354898348,
+      "appreciation_3yr": 12.563840653728287,
+      "appreciation_5yr": 30.183106910809208,
+      "annualized_appreciation": 5.41706643297819,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 71,
+      "resale_annualized_appreciation": 5.41706643297819,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.714,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1092.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1118.0,
+            "txn_count": 9
+          },
+          "1400-1800": {
+            "median_psf": 1072.5,
+            "txn_count": 2
+          },
+          "1800+": {
+            "median_psf": 976.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "windermere": {
+      "project_name": "WINDERMERE",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 61,
+      "avg_psf_current": 1080.0,
+      "median_psf": 1080.0,
+      "avg_psf_5yr_ago": 736.0,
+      "appreciation_1yr": 12.55862428348098,
+      "appreciation_3yr": 21.076233183856495,
+      "appreciation_5yr": 46.739130434782616,
+      "annualized_appreciation": 7.971513264886743,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 61,
+      "resale_annualized_appreciation": 7.971513264886743,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.917,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 991.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 991.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1046.0,
+            "txn_count": 7
+          },
+          "1800+": {
+            "median_psf": 895.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "chestervale": {
+      "project_name": "CHESTERVALE",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 51,
+      "avg_psf_current": 1000.0,
+      "median_psf": 1000.0,
+      "avg_psf_5yr_ago": 816.0,
+      "appreciation_1yr": -3.8461538461538436,
+      "appreciation_3yr": 11.982082866741317,
+      "appreciation_5yr": 22.549019607843146,
+      "annualized_appreciation": 4.150646053276974,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 51,
+      "resale_annualized_appreciation": 4.150646053276974,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1032.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1016.0,
+            "txn_count": 7
+          },
+          "1400-1800": {
+            "median_psf": 1056.0,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "the dew": {
+      "project_name": "THE DEW",
+      "district": "D23",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2000",
+      "lease_start_year": 2000,
+      "transaction_count": 21,
+      "avg_psf_current": 1244.0,
+      "median_psf": 1244.0,
+      "avg_psf_5yr_ago": 899.5,
+      "appreciation_1yr": 7.61245674740485,
+      "appreciation_3yr": 28.978745463970967,
+      "appreciation_5yr": 38.29905503057254,
+      "annualized_appreciation": 6.6998582664392625,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 21,
+      "resale_annualized_appreciation": 6.6998582664392625,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": 0.183,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1027.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1027.0,
+            "txn_count": 19
+          },
+          "1400-1800": {
+            "median_psf": 1174.0,
+            "txn_count": 1
+          },
+          "1800+": {
+            "median_psf": 839.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 505,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "copen grand": {
+      "project_name": "COPEN GRAND",
+      "district": "D24",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2021",
+      "lease_start_year": 2021,
+      "transaction_count": 638,
+      "avg_psf_current": 1514.0,
+      "median_psf": 1514.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": -8.740204942736584,
+      "appreciation_3yr": 5.615626089989534,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 638,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1631.0,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1514.0,
+            "txn_count": 1
+          },
+          "1050-1400": {
+            "median_psf": 1692.0,
+            "txn_count": 3
+          },
+          "800-1050": {
+            "median_psf": 1631.0,
+            "txn_count": 3
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 699,
+        "low": 0.9683,
+        "mid": 1.0,
+        "high": 1.0327
+      },
+      "is_ec": true
+    },
+    "otto place": {
+      "project_name": "OTTO PLACE",
+      "district": "D24",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2024",
+      "lease_start_year": 2024,
+      "transaction_count": 596,
+      "avg_psf_current": 1758.0,
+      "median_psf": 1758.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 0.2852253280091199,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 596,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "1yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1754.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1757.0,
+            "txn_count": 476
+          },
+          "1050-1400": {
+            "median_psf": 1738.0,
+            "txn_count": 120
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 596,
+        "low": 0.9669,
+        "mid": 1.0,
+        "high": 1.0342
+      },
+      "is_ec": true
+    },
+    "novo place": {
+      "project_name": "NOVO PLACE",
+      "district": "D24",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2023",
+      "lease_start_year": 2023,
+      "transaction_count": 504,
+      "avg_psf_current": 1702.0,
+      "median_psf": 1702.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 3.590992087644551,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 504,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "1yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1644.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1692.0,
+            "txn_count": 7
+          },
+          "800-1050": {
+            "median_psf": 1639.0,
+            "txn_count": 90
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 97,
+        "low": 0.9775,
+        "mid": 1.0,
+        "high": 1.023
+      },
+      "is_ec": true
+    },
+    "bellewoods": {
+      "project_name": "BELLEWOODS",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 219,
+      "avg_psf_current": 1333.0,
+      "median_psf": 1333.0,
+      "avg_psf_5yr_ago": 980.0,
+      "appreciation_1yr": -0.8921933085501821,
+      "appreciation_3yr": 13.737201365187723,
+      "appreciation_5yr": 36.0204081632653,
+      "annualized_appreciation": 6.345915605082997,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 219,
+      "resale_annualized_appreciation": 6.345915605082997,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1334.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1350.0,
+            "txn_count": 31
+          },
+          "600-800": {
+            "median_psf": 1381.0,
+            "txn_count": 3
+          },
+          "800-1050": {
+            "median_psf": 1313.0,
+            "txn_count": 11
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 45,
+        "low": 0.9934,
+        "mid": 1.0,
+        "high": 1.0066
+      },
+      "is_ec": true
+    },
+    "forestville": {
+      "project_name": "FORESTVILLE",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 186,
+      "avg_psf_current": 1244.5,
+      "median_psf": 1244.5,
+      "avg_psf_5yr_ago": 951.0,
+      "appreciation_1yr": 4.229480737018432,
+      "appreciation_3yr": 11.814914645103315,
+      "appreciation_5yr": 30.862250262881187,
+      "annualized_appreciation": 5.526826249600858,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 186,
+      "resale_annualized_appreciation": 5.526826249600858,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.259,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1199.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1201.0,
+            "txn_count": 37
+          },
+          "800-1050": {
+            "median_psf": 1205.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1150.0,
+            "txn_count": 9
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 51,
+        "low": 0.9661,
+        "mid": 1.0,
+        "high": 1.0351
+      },
+      "is_ec": true
+    },
+    "northwave": {
+      "project_name": "NORTHWAVE",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2015",
+      "lease_start_year": 2015,
+      "transaction_count": 150,
+      "avg_psf_current": 1275.0,
+      "median_psf": 1275.0,
+      "avg_psf_5yr_ago": 857.0,
+      "appreciation_1yr": 1.918465227817756,
+      "appreciation_3yr": 24.51171875,
+      "appreciation_5yr": 48.77479579929989,
+      "annualized_appreciation": 8.269435531954027,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 150,
+      "resale_annualized_appreciation": 8.269435531954027,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1261.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1256.0,
+            "txn_count": 31
+          },
+          "1050-1400": {
+            "median_psf": 1251.0,
+            "txn_count": 30
+          },
+          "1400-1800": {
+            "median_psf": 1378.5,
+            "txn_count": 2
+          },
+          "600-800": {
+            "median_psf": 1361.0,
+            "txn_count": 10
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 71,
+        "low": 0.9571,
+        "mid": 1.0,
+        "high": 1.0448
+      },
+      "is_ec": true
+    },
+    "northoaks": {
+      "project_name": "NORTHOAKS",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 134,
+      "avg_psf_current": 903.5,
+      "median_psf": 903.5,
+      "avg_psf_5yr_ago": 711.0,
+      "appreciation_1yr": -1.9001085776330084,
+      "appreciation_3yr": 6.419316843345113,
+      "appreciation_5yr": 27.074542897327714,
+      "annualized_appreciation": 4.908749720547201,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 134,
+      "resale_annualized_appreciation": 4.908749720547201,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 918.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 921.0,
+            "txn_count": 36
+          },
+          "1800+": {
+            "median_psf": 839.5,
+            "txn_count": 12
+          },
+          "1400-1800": {
+            "median_psf": 1009.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 302,
+        "low": 0.9701,
+        "mid": 1.0,
+        "high": 1.0308
+      },
+      "is_ec": true
+    },
+    "la casa": {
+      "project_name": "LA CASA",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2004",
+      "lease_start_year": 2004,
+      "transaction_count": 115,
+      "avg_psf_current": 1059.0,
+      "median_psf": 1059.0,
+      "avg_psf_5yr_ago": 803.0,
+      "appreciation_1yr": 0.28409090909091717,
+      "appreciation_3yr": 8.17160367722165,
+      "appreciation_5yr": 31.880448318804476,
+      "annualized_appreciation": 5.690531759198425,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 115,
+      "resale_annualized_appreciation": 5.690531759198425,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1058.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1053.0,
+            "txn_count": 10
+          },
+          "1050-1400": {
+            "median_psf": 1063.0,
+            "txn_count": 19
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 302,
+        "low": 0.9701,
+        "mid": 1.0,
+        "high": 1.0308
+      },
+      "is_ec": true
+    },
+    "twin fountains": {
+      "project_name": "TWIN FOUNTAINS",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 112,
+      "avg_psf_current": 1335.0,
+      "median_psf": 1335.0,
+      "avg_psf_5yr_ago": 984.0,
+      "appreciation_1yr": 0.18761726078799779,
+      "appreciation_3yr": 15.58441558441559,
+      "appreciation_5yr": 35.670731707317074,
+      "annualized_appreciation": 6.2911812284874635,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 112,
+      "resale_annualized_appreciation": 6.2911812284874635,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1335.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1328.5,
+            "txn_count": 30
+          },
+          "800-1050": {
+            "median_psf": 1337.0,
+            "txn_count": 6
+          },
+          "1400-1800": {
+            "median_psf": 1326.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 302,
+        "low": 0.9701,
+        "mid": 1.0,
+        "high": 1.0308
+      },
+      "is_ec": true
+    },
+    "woodsvale": {
+      "project_name": "WOODSVALE",
+      "district": "D25",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 1997",
+      "lease_start_year": 1997,
+      "transaction_count": 101,
+      "avg_psf_current": 965.0,
+      "median_psf": 965.0,
+      "avg_psf_5yr_ago": 714.0,
+      "appreciation_1yr": 4.834329168929918,
+      "appreciation_3yr": 14.949374627754608,
+      "appreciation_5yr": 35.15406162464987,
+      "annualized_appreciation": 6.210100629192605,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 101,
+      "resale_annualized_appreciation": 6.210100629192605,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.275,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 931.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 931.0,
+            "txn_count": 34
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 302,
+        "low": 0.9701,
+        "mid": 1.0,
+        "high": 1.0308
+      },
+      "is_ec": true
+    },
+    "north gaia": {
+      "project_name": "NORTH GAIA",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2021",
+      "lease_start_year": 2021,
+      "transaction_count": 615,
+      "avg_psf_current": 1402.0,
+      "median_psf": 1402.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 6.051437216338873,
+      "appreciation_3yr": 8.304364619544224,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 615,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": 0.657,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1402.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1400.0,
+            "txn_count": 19
+          },
+          "1050-1400": {
+            "median_psf": 1438.0,
+            "txn_count": 11
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 630,
+        "low": 0.957,
+        "mid": 1.0,
+        "high": 1.0449
+      },
+      "is_ec": true
+    },
+    "the visionaire": {
+      "project_name": "THE VISIONAIRE",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2015",
+      "lease_start_year": 2015,
+      "transaction_count": 291,
+      "avg_psf_current": 1538.0,
+      "median_psf": 1538.0,
+      "avg_psf_5yr_ago": null,
+      "appreciation_1yr": 5.198358413132698,
+      "appreciation_3yr": 15.726109857035375,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 291,
+      "resale_annualized_appreciation": 9.101727430619633,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.009,
+      "data_coverage": "3yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1480.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1483.0,
+            "txn_count": 48
+          },
+          "1050-1400": {
+            "median_psf": 1467.5,
+            "txn_count": 28
+          },
+          "600-800": {
+            "median_psf": 1525.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1317.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 76,
+        "low": 0.9597,
+        "mid": 1.0,
+        "high": 1.0419
+      },
+      "is_ec": true
+    },
+    "the brownstone": {
+      "project_name": "THE BROWNSTONE",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 271,
+      "avg_psf_current": 1549.0,
+      "median_psf": 1549.0,
+      "avg_psf_5yr_ago": 1035.0,
+      "appreciation_1yr": 5.195246179966051,
+      "appreciation_3yr": 17.34848484848486,
+      "appreciation_5yr": 49.66183574879226,
+      "annualized_appreciation": 8.398235687939227,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 271,
+      "resale_annualized_appreciation": 8.398235687939227,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.641,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1503.0,
+        "bands": {
+          "600-800": {
+            "median_psf": 1513.5,
+            "txn_count": 2
+          },
+          "800-1050": {
+            "median_psf": 1531.0,
+            "txn_count": 41
+          },
+          "1050-1400": {
+            "median_psf": 1431.0,
+            "txn_count": 20
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 63,
+        "low": 0.9796,
+        "mid": 1.0,
+        "high": 1.0208
+      },
+      "is_ec": true
+    },
+    "parc life": {
+      "project_name": "PARC LIFE",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 253,
+      "avg_psf_current": 1436.0,
+      "median_psf": 1436.0,
+      "avg_psf_5yr_ago": 1052.5,
+      "appreciation_1yr": 5.471905986044812,
+      "appreciation_3yr": 12.937475422729051,
+      "appreciation_5yr": 36.43705463182898,
+      "annualized_appreciation": 6.4109859299053,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 253,
+      "resale_annualized_appreciation": 6.4109859299053,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.188,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1379.0,
+        "bands": {
+          "600-800": {
+            "median_psf": 1387.0,
+            "txn_count": 7
+          },
+          "1050-1400": {
+            "median_psf": 1407.0,
+            "txn_count": 56
+          },
+          "800-1050": {
+            "median_psf": 1369.0,
+            "txn_count": 27
+          },
+          "1400-1800": {
+            "median_psf": 1392.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 90,
+        "low": 0.9475,
+        "mid": 1.0,
+        "high": 1.0554
+      },
+      "is_ec": true
+    },
+    "the criterion": {
+      "project_name": "THE CRITERION",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 240,
+      "avg_psf_current": 1380.0,
+      "median_psf": 1380.0,
+      "avg_psf_5yr_ago": 972.0,
+      "appreciation_1yr": 2.9082774049216997,
+      "appreciation_3yr": 9.785202863961807,
+      "appreciation_5yr": 41.97530864197532,
+      "annualized_appreciation": 7.261178490486486,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 240,
+      "resale_annualized_appreciation": 7.261178490486486,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.871,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1362.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1360.0,
+            "txn_count": 18
+          },
+          "800-1050": {
+            "median_psf": 1352.0,
+            "txn_count": 33
+          },
+          "600-800": {
+            "median_psf": 1401.0,
+            "txn_count": 5
+          },
+          "1400-1800": {
+            "median_psf": 1296.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 56,
+        "low": 0.9599,
+        "mid": 1.0,
+        "high": 1.0418
+      },
+      "is_ec": true
+    },
+    "signature at yishun": {
+      "project_name": "SIGNATURE AT YISHUN",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2014",
+      "lease_start_year": 2014,
+      "transaction_count": 219,
+      "avg_psf_current": 1275.0,
+      "median_psf": 1275.0,
+      "avg_psf_5yr_ago": 949.0,
+      "appreciation_1yr": -0.42951971885981655,
+      "appreciation_3yr": 4.593929450369161,
+      "appreciation_5yr": 34.35194942044257,
+      "annualized_appreciation": 6.083733163783145,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 219,
+      "resale_annualized_appreciation": 6.083733163783145,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1277.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1265.0,
+            "txn_count": 40
+          },
+          "800-1050": {
+            "median_psf": 1293.0,
+            "txn_count": 7
+          },
+          "600-800": {
+            "median_psf": 1296.0,
+            "txn_count": 12
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 59,
+        "low": 0.9679,
+        "mid": 1.0,
+        "high": 1.0332
+      },
+      "is_ec": true
+    },
+    "1 canberra": {
+      "project_name": "1 CANBERRA",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 174,
+      "avg_psf_current": 1325.0,
+      "median_psf": 1325.0,
+      "avg_psf_5yr_ago": 1004.0,
+      "appreciation_1yr": 1.766513056835639,
+      "appreciation_3yr": 13.782739373121512,
+      "appreciation_5yr": 31.972111553784856,
+      "annualized_appreciation": 5.705219673687623,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 174,
+      "resale_annualized_appreciation": 5.705219673687623,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.788,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1304.5,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1316.0,
+            "txn_count": 23
+          },
+          "800-1050": {
+            "median_psf": 1325.0,
+            "txn_count": 27
+          },
+          "1400-1800": {
+            "median_psf": 1262.0,
+            "txn_count": 2
+          },
+          "1800+": {
+            "median_psf": 1037.0,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 58,
+        "low": 0.9725,
+        "mid": 1.0,
+        "high": 1.0282
+      },
+      "is_ec": true
+    },
+    "skypark residences": {
+      "project_name": "SKYPARK RESIDENCES",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 168,
+      "avg_psf_current": 1432.5,
+      "median_psf": 1432.5,
+      "avg_psf_5yr_ago": 1074.0,
+      "appreciation_1yr": 2.321428571428563,
+      "appreciation_3yr": 14.967897271268061,
+      "appreciation_5yr": 33.379888268156435,
+      "annualized_appreciation": 5.9297798865554086,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 168,
+      "resale_annualized_appreciation": 5.9297798865554086,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.722,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1416.0,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1421.5,
+            "txn_count": 16
+          },
+          "1050-1400": {
+            "median_psf": 1416.0,
+            "txn_count": 27
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 43,
+        "low": 0.9515,
+        "mid": 1.0,
+        "high": 1.051
+      },
+      "is_ec": true
+    },
+    "provence residence": {
+      "project_name": "PROVENCE RESIDENCE",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2020",
+      "lease_start_year": 2020,
+      "transaction_count": 117,
+      "avg_psf_current": 1577.0,
+      "median_psf": 1577.0,
+      "avg_psf_5yr_ago": 1232.0,
+      "appreciation_1yr": 0.22243406418811507,
+      "appreciation_3yr": 12.321937321937316,
+      "appreciation_5yr": 28.003246753246746,
+      "annualized_appreciation": 5.061645151222893,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 116,
+      "new_sale_proportion": 0.991,
+      "resale_transaction_count": 1,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": -0.968,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1252.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1254.0,
+            "txn_count": 85
+          },
+          "1050-1400": {
+            "median_psf": 1251.0,
+            "txn_count": 32
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 117,
+        "low": 0.9387,
+        "mid": 1.0,
+        "high": 1.0653
+      },
+      "is_ec": true
+    },
+    "the canopy": {
+      "project_name": "THE CANOPY",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2010",
+      "lease_start_year": 2010,
+      "transaction_count": 96,
+      "avg_psf_current": 1142.5,
+      "median_psf": 1142.5,
+      "avg_psf_5yr_ago": 859.0,
+      "appreciation_1yr": -0.738488271068638,
+      "appreciation_3yr": 11.954924056834892,
+      "appreciation_5yr": 33.00349243306171,
+      "annualized_appreciation": 5.869925868753434,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 96,
+      "resale_annualized_appreciation": 5.869925868753434,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1144.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1142.0,
+            "txn_count": 21
+          },
+          "800-1050": {
+            "median_psf": 1173.0,
+            "txn_count": 9
+          },
+          "1400-1800": {
+            "median_psf": 1228.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 630,
+        "low": 0.957,
+        "mid": 1.0,
+        "high": 1.0449
+      },
+      "is_ec": true
+    },
+    "lilydale": {
+      "project_name": "LILYDALE",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2000",
+      "lease_start_year": 2000,
+      "transaction_count": 59,
+      "avg_psf_current": 904.0,
+      "median_psf": 904.0,
+      "avg_psf_5yr_ago": 737.0,
+      "appreciation_1yr": -6.126687435098654,
+      "appreciation_3yr": 4.027617951668594,
+      "appreciation_5yr": 22.659430122116685,
+      "annualized_appreciation": 4.169406194389347,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 59,
+      "resale_annualized_appreciation": 4.169406194389347,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -1.0,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 929.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 933.0,
+            "txn_count": 14
+          },
+          "1800+": {
+            "median_psf": 755.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 630,
+        "low": 0.957,
+        "mid": 1.0,
+        "high": 1.0449
+      },
+      "is_ec": true
+    },
+    "parc canberra": {
+      "project_name": "PARC CANBERRA",
+      "district": "D27",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2018",
+      "lease_start_year": 2018,
+      "transaction_count": 5,
+      "avg_psf_current": null,
+      "median_psf": null,
+      "avg_psf_5yr_ago": 1083.0,
+      "appreciation_1yr": null,
+      "appreciation_3yr": null,
+      "appreciation_5yr": null,
+      "annualized_appreciation": null,
+      "source": "ura_data",
+      "updated": "2026-10-03",
+      "new_sale_count": 5,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": null,
+      "data_coverage": "none",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1283.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1283.0,
+            "txn_count": 5
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 630,
+        "low": 0.957,
+        "mid": 1.0,
+        "high": 1.0449
+      },
+      "is_ec": true
+    },
+    "the topiary": {
+      "project_name": "THE TOPIARY",
+      "district": "D28",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2012",
+      "lease_start_year": 2012,
+      "transaction_count": 281,
+      "avg_psf_current": 1549.0,
+      "median_psf": 1549.0,
+      "avg_psf_5yr_ago": 1091.5,
+      "appreciation_1yr": 4.697532950321048,
+      "appreciation_3yr": 21.20500782472614,
+      "appreciation_5yr": 41.914796152084286,
+      "annualized_appreciation": 7.252033593537099,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 281,
+      "resale_annualized_appreciation": 7.252033593537099,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.511,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1513.0,
+        "bands": {
+          "800-1050": {
+            "median_psf": 1514.0,
+            "txn_count": 33
+          },
+          "600-800": {
+            "median_psf": 1500.0,
+            "txn_count": 9
+          },
+          "1050-1400": {
+            "median_psf": 1520.5,
+            "txn_count": 54
+          },
+          "1800+": {
+            "median_psf": 1401.0,
+            "txn_count": 2
+          },
+          "1400-1800": {
+            "median_psf": 1339.0,
+            "txn_count": 2
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 96,
+        "low": 0.9727,
+        "mid": 1.0,
+        "high": 1.0281
+      },
+      "is_ec": true
+    },
+    "parc greenwich": {
+      "project_name": "PARC GREENWICH",
+      "district": "D28",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2020",
+      "lease_start_year": 2020,
+      "transaction_count": 201,
+      "avg_psf_current": 1462.0,
+      "median_psf": 1462.0,
+      "avg_psf_5yr_ago": 1252.0,
+      "appreciation_1yr": null,
+      "appreciation_3yr": 11.178707224334605,
+      "appreciation_5yr": 16.773162939297116,
+      "annualized_appreciation": 5.304682064803878,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 201,
+      "new_sale_proportion": 1.0,
+      "resale_transaction_count": 0,
+      "resale_annualized_appreciation": null,
+      "has_new_launch_bias": true,
+      "appreciation_momentum": -0.316,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1258.0,
+        "bands": {
+          "1050-1400": {
+            "median_psf": 1268.0,
+            "txn_count": 67
+          },
+          "800-1050": {
+            "median_psf": 1253.0,
+            "txn_count": 130
+          },
+          "600-800": {
+            "median_psf": 1362.0,
+            "txn_count": 3
+          },
+          "1400-1800": {
+            "median_psf": 1287.0,
+            "txn_count": 1
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "project_fe",
+        "txn_count": 200,
+        "low": 0.9968,
+        "mid": 1.0,
+        "high": 1.0032
+      },
+      "is_ec": true
+    },
+    "lush acres": {
+      "project_name": "LUSH ACRES",
+      "district": "D28",
+      "market_segment": "Outside Central Region",
+      "tenure": "99 yrs lease commencing from 2013",
+      "lease_start_year": 2013,
+      "transaction_count": 127,
+      "avg_psf_current": 1450.0,
+      "median_psf": 1450.0,
+      "avg_psf_5yr_ago": 1123.0,
+      "appreciation_1yr": 3.75670840787119,
+      "appreciation_3yr": 12.4031007751938,
+      "appreciation_5yr": 29.118432769367764,
+      "annualized_appreciation": 5.244073493141643,
+      "source": "ura_5yr_cagr",
+      "updated": "2026-10-03",
+      "new_sale_count": 0,
+      "new_sale_proportion": 0.0,
+      "resale_transaction_count": 127,
+      "resale_annualized_appreciation": 5.244073493141643,
+      "has_new_launch_bias": false,
+      "appreciation_momentum": -0.297,
+      "data_coverage": "5yr",
+      "by_size": {
+        "window_years": 2,
+        "recent_median_psf": 1438.0,
+        "bands": {
+          "1400-1800": {
+            "median_psf": 1509.5,
+            "txn_count": 6
+          },
+          "1050-1400": {
+            "median_psf": 1421.0,
+            "txn_count": 25
+          },
+          "800-1050": {
+            "median_psf": 1410.0,
+            "txn_count": 8
+          }
+        }
+      },
+      "floor_factors": {
+        "basis": "district_fe",
+        "txn_count": 335,
+        "low": 0.9885,
+        "mid": 1.0,
+        "high": 1.0116
+      },
+      "is_ec": true
     }
   }
 }

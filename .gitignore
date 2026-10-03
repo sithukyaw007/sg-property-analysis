@@ -85,3 +85,8 @@ data/bed_bands.json
 # temp/lock files from ura_api exports and eval-memory index rebuilds
 data/*.csv.tmp
 evaluations/*.lock
+
+# Personal buyer profile (fork-local; see profile.example.json / buyer_profile.py)
+profile.local.json
+# Personal derived data: commute times, personal-fit scores (machine-local)
+data/personal/

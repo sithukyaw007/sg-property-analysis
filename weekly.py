@@ -140,6 +140,20 @@ MANDATES = [
     ("his",  1_800_000, (3,),    "him — up to ~$1.8M (flexible), 3BR"),
     ("hers", 2_500_000, (3, 4),  "her — ~$2.5M, 3-4BR, whichever returns most"),
 ]
+
+# A fork's buyer replaces the block above WITHOUT editing it: a git-ignored
+# profile.local.json (buyer_profile.py) supplies the mandates and the district
+# list. No profile = the owner's block, unchanged. The name OCR_DISTRICTS is
+# kept because the gate and the URA refresh read it; with a profile it holds
+# whatever districts that buyer chose.
+import buyer_profile as _buyer_profile
+
+PROFILE = _buyer_profile.active()
+if PROFILE is not None:
+    MANDATES = [m.as_tuple() for m in PROFILE.mandates]
+    OCR_DISTRICTS = list(PROFILE.districts)
+    OCR_EXCLUDED = {}
+
 # Union of the mandates, used for the scrape itself.
 SCAN_DISTRICTS = OCR_DISTRICTS
 SCAN_BEDS = sorted({b for _, _, beds, _ in MANDATES for b in beds})

@@ -60,8 +60,12 @@ def _num(s):
 
 def load_contracts():
     rows = []
-    # current-slice files only (no date-range suffix)
-    for p in sorted(glob.glob(str(DATA_DIR / "ura_rental_D[0-9][0-9].csv"))):
+    # current-slice files only (no date-range suffix), plus the EC slice
+    # (ura_rental_D{NN}_EC.csv). The cache is keyed per project, so EC
+    # contracts only ever feed EC projects' rents.
+    paths = sorted(glob.glob(str(DATA_DIR / "ura_rental_D[0-9][0-9].csv"))
+                   + glob.glob(str(DATA_DIR / "ura_rental_D[0-9][0-9]_EC.csv")))
+    for p in paths:
         try:
             fh = open(p, encoding="utf-8")
             fh.read(1 << 20)

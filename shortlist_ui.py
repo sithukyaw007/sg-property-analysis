@@ -184,7 +184,14 @@ def blocked_by_beds(rows: list[dict]) -> list[dict]:
             and bed_check(r).get("verdict") == "mismatch"]
 
 
-MANDATE_LABEL = {"his": "HIS · 3BR ≤$1.8M", "hers": "HERS · 3-4BR ≤$2.5M"}
+def _mandate_label(label: str, max_price: int, beds) -> str:
+    bed_txt = "-".join(str(b) for b in sorted(beds))
+    return f"{label.upper()} · {bed_txt}BR ≤${max_price / 1e6:.1f}M"
+
+
+# Derived from weekly.MANDATES (the owner's his/hers, or a fork's profile).
+MANDATE_LABEL = {label: _mandate_label(label, price, beds)
+                 for label, price, beds, _ in shortlist.weekly.MANDATES}
 
 
 def mandate_coverage(rows: list[dict], picks: list[dict], cut: float) -> list[dict]:
@@ -195,7 +202,7 @@ def mandate_coverage(rows: list[dict], picks: list[dict], cut: float) -> list[di
     between "we have three to see" and "he has none".
     """
     out = []
-    for m in ("his", "hers"):
+    for m in MANDATE_LABEL:
         in_m = [r for r in rows if r.get("mandate") == m]
         if not in_m:
             continue
@@ -735,6 +742,11 @@ def render(rows: list[dict], since: str) -> str:
     # No parenthetical at all when there is too little spread to claim an r —
     # an empty "(  )" would read as a rendering bug rather than as honesty.
     r_txt = "" if r_corr is None else f" (r &asymp; {r_corr:+.2f})"
+    mandate_buttons = "\n    ".join(
+        f'<button data-m="{_e(m)}" onclick="who(\'{_e(m)}\')">'
+        f'{_e(lbl.split(" · ", 1)[0].lower())} &middot; '
+        f'{_e(lbl.split(" · ", 1)[1]).replace("≤", "&le;")}</button>'
+        for m, lbl in MANDATE_LABEL.items())
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="data:,">
@@ -753,9 +765,8 @@ def render(rows: list[dict], since: str) -> str:
 {call_panel(rows, cut, stats)}
 <div class="bar">
   <span class="grp" id="who"><b>show</b>
-    <button data-m="" class="on" onclick="who('')">both</button>
-    <button data-m="his" onclick="who('his')">his &middot; 3BR &le;$1.8M</button>
-    <button data-m="hers" onclick="who('hers')">hers &middot; 3-4BR &le;$2.5M</button>
+    <button data-m="" class="on" onclick="who('')">all</button>
+    {mandate_buttons}
   </span>
   <span class="grp" id="sort"><b>sort</b>
     <button data-k="rank" class="on" onclick="sortBy('rank')">best evidence</button>

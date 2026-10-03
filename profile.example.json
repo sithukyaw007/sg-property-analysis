@@ -1,0 +1,20 @@
+{
+  "_comment": "Copy to profile.local.json (git-ignored) and edit: `python buyer_profile.py --init`. With no profile.local.json the tool keeps the repo owner's defaults. purpose: own_stay | investment. buyer_type: SC | PR | Foreigner (drives ABSD). property_count: Singapore residential properties already owned (0 = this is the first). household_citizenship: SC if at least one applicant is a Singapore Citizen (needed for a NEW EC), PR for a PR-only household (resale EC after MOP only). mandates[].property_types: condo and/or ec. anchors.workplace_postal: 6-digit postal code for commute times (needs OneMap credentials, see utils/onemap.py).",
+  "name": "example buyer",
+  "purpose": "own_stay",
+  "buyer_type": "SC",
+  "property_count": 0,
+  "household_citizenship": "SC",
+  "mandates": [
+    {"label": "main", "max_price": 1600000, "beds": [3], "property_types": ["condo", "ec"],
+     "who": "3BR up to $1.6M, condo or EC"}
+  ],
+  "districts": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+  "anchors": {
+    "workplace_postal": null,
+    "workplace_label": "office",
+    "commute_depart": "08:30",
+    "school_radii_m": [1000, 2000]
+  },
+  "hold_years": [5, 7, 10]
+}

@@ -101,10 +101,14 @@ def _commence_year(tenure):
     return int(m.group(1)) if m else None
 
 
-def load_with_floor():
-    """Like bt.load_txns but keeps Floor Level + parsed freehold (for the hedonic)."""
+def load_with_floor(paths=None):
+    """Like bt.load_txns but keeps Floor Level + parsed freehold (for the hedonic).
+
+    `paths` defaults to the condo panel (bt.DATA_GLOB); exit_demand passes the
+    EC files too, since a project's exit record only ever pairs its own prints.
+    """
     out = []
-    for p in sorted(glob.glob(bt.DATA_GLOB)):
+    for p in (paths or sorted(glob.glob(bt.DATA_GLOB))):
         with bt._open_csv(p) as fh:
             for row in csv.DictReader(fh):
                 t = bt._parse_date(row.get("Sale Date", ""))

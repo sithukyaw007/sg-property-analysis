@@ -1029,17 +1029,31 @@ class TestRound3Fixes:
             ura_api._export_guarded(boom, None, 19, path, [])
         assert not (tmp_path / "ura_district_D19.csv.tmp").exists()
 
-    def test_ec_request_does_not_take_the_condo_api_path(self, monkeypatch):
+    def test_ec_request_takes_the_api_path_with_ec_export(self, monkeypatch):
+        # Since the EC export landed (ura_api.refresh(ec=True) writes
+        # ura_district_D*_EC.csv), an EC request no longer needs the browser.
         import sys as _sys
         import fetch_ura_districts as f
         import ura_api
+        seen = {}
         monkeypatch.setattr(ura_api, "available", lambda: (True, ""))
-        monkeypatch.setattr(ura_api, "refresh",
-                            lambda **k: (_ for _ in ()).throw(AssertionError("API used for EC")))
-        monkeypatch.setattr(f, "is_fresh", lambda *a: True)      # nothing to fetch
-        monkeypatch.setattr(f, "build_cache_from_district_csvs", lambda d: {})
+        monkeypatch.setattr(ura_api, "refresh", lambda **k: seen.update(k) or {"ec_tx_rows": 1})
+        monkeypatch.setattr(f, "build_cache_from_district_csvs",
+                            lambda d: (_ for _ in ()).throw(AssertionError("browser path used")))
         monkeypatch.setattr(_sys, "argv", ["x", "--districts", "19", "--property-types", "ec"])
         f.main()
+        assert seen.get("ec") is True and seen.get("rentals") is False
+
+    def test_condo_request_skips_ec_export(self, monkeypatch):
+        import sys as _sys
+        import fetch_ura_districts as f
+        import ura_api
+        seen = {}
+        monkeypatch.setattr(ura_api, "available", lambda: (True, ""))
+        monkeypatch.setattr(ura_api, "refresh", lambda **k: seen.update(k) or {})
+        monkeypatch.setattr(_sys, "argv", ["x", "--districts", "19"])
+        f.main()
+        assert seen.get("ec") is False
 
 
 class TestCheckEnvironment:

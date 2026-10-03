@@ -62,7 +62,12 @@ import numpy as np
 _MON = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
 
-DATA_GLOB = os.path.join(os.path.dirname(__file__), "data", "ura_district_D*.csv")
+# Condo/apartment prints only. Executive Condominium prints (ura_district_D*_EC.csv)
+# are a separate product with its own price level and stay OUT of the panel, so
+# every backtest/validation read is unchanged by the EC export. EC_DATA_GLOB is
+# for consumers that score EC projects on their own history (exit_demand).
+DATA_GLOB = os.path.join(os.path.dirname(__file__), "data", "ura_district_D[0-9][0-9].csv")
+EC_DATA_GLOB = os.path.join(os.path.dirname(__file__), "data", "ura_district_D[0-9][0-9]_EC.csv")
 
 
 def _parse_date(s: str):

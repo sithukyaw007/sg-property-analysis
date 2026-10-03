@@ -39,14 +39,14 @@ class ROICalculator:
     """
     Calculate ROI for property investments.
 
-    Optimized for Singapore Citizen, first property (0% ABSD),
-    with hold periods of 5-7 years.
+    Defaults to the active buyer profile (buyer_profile.py) for ABSD; without
+    one, Singapore Citizen, first property (0% ABSD). Hold periods of 5-7 years.
     """
 
     def __init__(
         self,
-        buyer_type: str = "SC",
-        property_count: int = 0,
+        buyer_type: Optional[str] = None,
+        property_count: Optional[int] = None,
         annual_appreciation: Optional[float] = None,
         marginal_income_tax_rate: Optional[float] = None,
     ):
@@ -54,13 +54,23 @@ class ROICalculator:
         Initialize ROI calculator.
 
         Args:
-            buyer_type: "SC" (Singapore Citizen), "PR", or "Foreigner"
+            buyer_type: "SC" (Singapore Citizen), "PR", or "Foreigner".
+                None = the active buyer profile's (buyer_profile.py), else "SC".
             property_count: 0 for first property, 1 for second, etc.
+                None = the active buyer profile's, else 0.
             annual_appreciation: Override default appreciation rate
             marginal_income_tax_rate: Override the marginal income tax rate
                 applied to net letting profit (default from
                 cost_parameters.json, 0.15)
         """
+        # ABSD depends on WHO buys. Defaulting to the profile (not a hardcoded
+        # SC) is what makes a PR buyer's 5% first-property ABSD show up in
+        # every ROI path without touching call sites. Never affects MMR.
+        if buyer_type is None or property_count is None:
+            import buyer_profile
+            p_type, p_count = buyer_profile.buyer_defaults()
+            buyer_type = p_type if buyer_type is None else buyer_type
+            property_count = p_count if property_count is None else property_count
         self.buyer_type = buyer_type
         self.property_count = property_count
         self.annual_appreciation = annual_appreciation if annual_appreciation is not None else _load_appreciation_rate()
